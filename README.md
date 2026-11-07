@@ -1,5 +1,7 @@
 # Anywhere GeoSite auto updater
 
+[简体中文](README.zh-CN.md) | English
+
 Every day at 03:25 UTC, GitHub Actions fetches [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community), converts supported domain categories into [Anywhere](https://github.com/NodePassProject/Anywhere) `.arrs` subscriptions, and commits changes.
 
 | GeoSite source | Generated file | Routing |
