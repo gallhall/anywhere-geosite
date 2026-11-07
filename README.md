@@ -25,3 +25,15 @@ For local testing:
 git clone --depth 1 https://github.com/v2fly/domain-list-community.git /tmp/geosite-source
 python3 scripts/convert.py /tmp/geosite-source/data --output rules
 ```
+
+## Single module subscription
+
+Import **all six rule sets** from one URL:
+
+`https://raw.githubusercontent.com/gallhall/anywhere-geosite/main/rules/anywhere-geosite.amod`
+
+Anywhere deep link:
+
+`anywhere://add-module?link=https://raw.githubusercontent.com/gallhall/anywhere-geosite/main/rules/anywhere-geosite.amod`
+
+Or mount that .amod URL in OpenList and use the direct file URL ending in `.amod`. The module updates alongside the six .arrs files on future scheduled GitHub Actions runs. The first module file was generated from the currently published rule sets. **Set GeoSite force-proxy to PROXY in Anywhere after import**; `routing = 0` defaults to the default route.
