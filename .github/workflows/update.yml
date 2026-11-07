@@ -1,0 +1,34 @@
+name: Update GeoSite for Anywhere
+on:
+  schedule:
+    - cron: '25 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: geosite-update
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch GeoSite source
+        run: git clone --depth 1 https://github.com/v2fly/domain-list-community.git /tmp/geosite-source
+      - name: Convert GeoSite
+        run: python3 scripts/convert.py /tmp/geosite-source/data --output rules
+      - name: Commit generated rules if changed
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add rules/
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh GeoSite rules'
+            git push
+          else
+            echo 'Rules unchanged'
+          fi
