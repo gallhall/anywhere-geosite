@@ -1,6 +1,6 @@
 # Anywhere GeoSite 自动更新
 
-[简体中文](README.zh-CN.md) | [English](README.md)
+**简体中文** | [English](README.md)
 
 GitHub Actions 每天 UTC 03:25 从 [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) 获取数据，将支持的域名分类转换为 [Anywhere](https://github.com/NodePassProject/Anywhere) 的 `.arrs` 订阅规则，并提交更新。
 
