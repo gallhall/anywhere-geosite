@@ -1,0 +1,5973 @@
+{
+  "source": "v2fly/domain-list-community",
+  "categories": {
+    "google": 884,
+    "microsoft": 644,
+    "oracle": 19,
+    "cn": 8449,
+    "private": 118,
+    "steam@cn": 14,
+    "category-ads-all": 749,
+    "category-stun": 1
+  },
+  "skipped": [
+    {
+      "file": "android",
+      "line": 7,
+      "type": "full",
+      "value": "android.googlesource.com"
+    },
+    {
+      "file": "firebase",
+      "line": 10,
+      "type": "full",
+      "value": "crashlyticsreports-pa.googleapis.com"
+    },
+    {
+      "file": "firebase",
+      "line": 11,
+      "type": "full",
+      "value": "firebase-settings.crashlytics.com"
+    },
+    {
+      "file": "firebase",
+      "line": 12,
+      "type": "full",
+      "value": "firebase.googleapis.com"
+    },
+    {
+      "file": "firebase",
+      "line": 13,
+      "type": "full",
+      "value": "firebaseappcheck.googleapis.com"
+    },
+    {
+      "file": "firebase",
+      "line": 14,
+      "type": "full",
+      "value": "firebaseappdistribution.googleapis.com"
+    },
+    {
+      "file": "firebase",
+      "line": 15,
+      "type": "full",
+      "value": "firebaseapptesters.googleapis.com"
+    },
+    {
+      "file": "firebase",
+      "line": 16,
+      "type": "full",
+      "value": "firebasedynamiclinks-ipv4.googleapis.com"
+    },
+    {
+      "file": "firebase",
+      "line": 17,
+      "type": "full",
+      "value": "firebasedynamiclinks-ipv6.googleapis.com"
+    },
+    {
+      "file": "firebase",
+      "line": 18,
+      "type": "full",
+      "value": "firebasedynamiclinks.googleapis.com"
+    },
+    {
+      "file": "firebase",
+      "line": 19,
+      "type": "full",
+      "value": "firebaseinappmessaging.googleapis.com"
+    },
+    {
+      "file": "firebase",
+      "line": 20,
+      "type": "full",
+      "value": "firebaseinstallations.googleapis.com"
+    },
+    {
+      "file": "firebase",
+      "line": 21,
+      "type": "full",
+      "value": "firebaselogging-pa.googleapis.com"
+    },
+    {
+      "file": "firebase",
+      "line": 22,
+      "type": "full",
+      "value": "firebaselogging.googleapis.com"
+    },
+    {
+      "file": "firebase",
+      "line": 23,
+      "type": "full",
+      "value": "firebaseperusertopics-pa.googleapis.com"
+    },
+    {
+      "file": "firebase",
+      "line": 24,
+      "type": "full",
+      "value": "firebaseremoteconfig.googleapis.com"
+    },
+    {
+      "file": "firebase",
+      "line": 25,
+      "type": "full",
+      "value": "update.crashlytics.com"
+    },
+    {
+      "file": "google-deepmind",
+      "line": 12,
+      "type": "full",
+      "value": "ai.google.dev"
+    },
+    {
+      "file": "google-deepmind",
+      "line": 13,
+      "type": "full",
+      "value": "alkalicore-pa.clients6.google.com"
+    },
+    {
+      "file": "google-deepmind",
+      "line": 14,
+      "type": "full",
+      "value": "alkalimakersuite-pa.clients6.google.com"
+    },
+    {
+      "file": "google-deepmind",
+      "line": 15,
+      "type": "full",
+      "value": "webchannel-alkalimakersuite-pa.clients6.google.com"
+    },
+    {
+      "file": "google-deepmind",
+      "line": 25,
+      "type": "full",
+      "value": "geminiweb-pa.clients.google.com"
+    },
+    {
+      "file": "google-deepmind",
+      "line": 26,
+      "type": "full",
+      "value": "geminiweb-pa.clients6.google.com"
+    },
+    {
+      "file": "google-deepmind",
+      "line": 29,
+      "type": "full",
+      "value": "appsgenaiserver-pa.clients.google.com"
+    },
+    {
+      "file": "google-deepmind",
+      "line": 30,
+      "type": "full",
+      "value": "appsgenaiserver-pa.clients6.google.com"
+    },
+    {
+      "file": "google-deepmind",
+      "line": 31,
+      "type": "full",
+      "value": "appsgenaiserver-pa.googleapis.com"
+    },
+    {
+      "file": "google-deepmind",
+      "line": 35,
+      "type": "full",
+      "value": "cloudaicompanion.googleapis.com"
+    },
+    {
+      "file": "google-deepmind",
+      "line": 36,
+      "type": "full",
+      "value": "cloudcode-pa.googleapis.com"
+    },
+    {
+      "file": "google-deepmind",
+      "line": 37,
+      "type": "full",
+      "value": "daily-cloudcode-pa.googleapis.com"
+    },
+    {
+      "file": "google-deepmind",
+      "line": 40,
+      "type": "full",
+      "value": "notebooklm-pa.googleapis.com"
+    },
+    {
+      "file": "google-deepmind",
+      "line": 41,
+      "type": "full",
+      "value": "notebooklm.googleapis.com"
+    },
+    {
+      "file": "google-deepmind",
+      "line": 68,
+      "type": "full",
+      "value": "antigravity-pa.googleapis.com"
+    },
+    {
+      "file": "google-deepmind",
+      "line": 69,
+      "type": "full",
+      "value": "antigravity.googleapis.com"
+    },
+    {
+      "file": "google-play",
+      "line": 12,
+      "type": "regexp",
+      "value": "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.xn--ngstr-lra8j\\.com$"
+    },
+    {
+      "file": "google-play",
+      "line": 14,
+      "type": "regexp",
+      "value": "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.googlevideo\\.com$"
+    },
+    {
+      "file": "google-play",
+      "line": 16,
+      "type": "full",
+      "value": "redirector.c.play.google.com"
+    },
+    {
+      "file": "google-scholar",
+      "line": 1,
+      "type": "full",
+      "value": "scholar.google.ae"
+    },
+    {
+      "file": "google-scholar",
+      "line": 2,
+      "type": "full",
+      "value": "scholar.google.at"
+    },
+    {
+      "file": "google-scholar",
+      "line": 3,
+      "type": "full",
+      "value": "scholar.google.be"
+    },
+    {
+      "file": "google-scholar",
+      "line": 4,
+      "type": "full",
+      "value": "scholar.google.bg"
+    },
+    {
+      "file": "google-scholar",
+      "line": 5,
+      "type": "full",
+      "value": "scholar.google.ca"
+    },
+    {
+      "file": "google-scholar",
+      "line": 6,
+      "type": "full",
+      "value": "scholar.google.cat"
+    },
+    {
+      "file": "google-scholar",
+      "line": 7,
+      "type": "full",
+      "value": "scholar.google.ch"
+    },
+    {
+      "file": "google-scholar",
+      "line": 8,
+      "type": "full",
+      "value": "scholar.google.cl"
+    },
+    {
+      "file": "google-scholar",
+      "line": 9,
+      "type": "full",
+      "value": "scholar.google.cn"
+    },
+    {
+      "file": "google-scholar",
+      "line": 10,
+      "type": "full",
+      "value": "scholar.google.co.cr"
+    },
+    {
+      "file": "google-scholar",
+      "line": 11,
+      "type": "full",
+      "value": "scholar.google.co.id"
+    },
+    {
+      "file": "google-scholar",
+      "line": 12,
+      "type": "full",
+      "value": "scholar.google.co.il"
+    },
+    {
+      "file": "google-scholar",
+      "line": 13,
+      "type": "full",
+      "value": "scholar.google.co.in"
+    },
+    {
+      "file": "google-scholar",
+      "line": 14,
+      "type": "full",
+      "value": "scholar.google.co.jp"
+    },
+    {
+      "file": "google-scholar",
+      "line": 15,
+      "type": "full",
+      "value": "scholar.google.co.kr"
+    },
+    {
+      "file": "google-scholar",
+      "line": 16,
+      "type": "full",
+      "value": "scholar.google.co.nz"
+    },
+    {
+      "file": "google-scholar",
+      "line": 17,
+      "type": "full",
+      "value": "scholar.google.co.th"
+    },
+    {
+      "file": "google-scholar",
+      "line": 18,
+      "type": "full",
+      "value": "scholar.google.co.uk"
+    },
+    {
+      "file": "google-scholar",
+      "line": 19,
+      "type": "full",
+      "value": "scholar.google.co.ve"
+    },
+    {
+      "file": "google-scholar",
+      "line": 20,
+      "type": "full",
+      "value": "scholar.google.co.za"
+    },
+    {
+      "file": "google-scholar",
+      "line": 21,
+      "type": "full",
+      "value": "scholar.google.com"
+    },
+    {
+      "file": "google-scholar",
+      "line": 22,
+      "type": "full",
+      "value": "scholar.google.com.ar"
+    },
+    {
+      "file": "google-scholar",
+      "line": 23,
+      "type": "full",
+      "value": "scholar.google.com.au"
+    },
+    {
+      "file": "google-scholar",
+      "line": 24,
+      "type": "full",
+      "value": "scholar.google.com.bo"
+    },
+    {
+      "file": "google-scholar",
+      "line": 25,
+      "type": "full",
+      "value": "scholar.google.com.br"
+    },
+    {
+      "file": "google-scholar",
+      "line": 26,
+      "type": "full",
+      "value": "scholar.google.com.co"
+    },
+    {
+      "file": "google-scholar",
+      "line": 27,
+      "type": "full",
+      "value": "scholar.google.com.cu"
+    },
+    {
+      "file": "google-scholar",
+      "line": 28,
+      "type": "full",
+      "value": "scholar.google.com.do"
+    },
+    {
+      "file": "google-scholar",
+      "line": 29,
+      "type": "full",
+      "value": "scholar.google.com.ec"
+    },
+    {
+      "file": "google-scholar",
+      "line": 30,
+      "type": "full",
+      "value": "scholar.google.com.eg"
+    },
+    {
+      "file": "google-scholar",
+      "line": 31,
+      "type": "full",
+      "value": "scholar.google.com.gt"
+    },
+    {
+      "file": "google-scholar",
+      "line": 32,
+      "type": "full",
+      "value": "scholar.google.com.hk"
+    },
+    {
+      "file": "google-scholar",
+      "line": 33,
+      "type": "full",
+      "value": "scholar.google.com.ly"
+    },
+    {
+      "file": "google-scholar",
+      "line": 34,
+      "type": "full",
+      "value": "scholar.google.com.mx"
+    },
+    {
+      "file": "google-scholar",
+      "line": 35,
+      "type": "full",
+      "value": "scholar.google.com.my"
+    },
+    {
+      "file": "google-scholar",
+      "line": 36,
+      "type": "full",
+      "value": "scholar.google.com.ni"
+    },
+    {
+      "file": "google-scholar",
+      "line": 37,
+      "type": "full",
+      "value": "scholar.google.com.pa"
+    },
+    {
+      "file": "google-scholar",
+      "line": 38,
+      "type": "full",
+      "value": "scholar.google.com.pe"
+    },
+    {
+      "file": "google-scholar",
+      "line": 39,
+      "type": "full",
+      "value": "scholar.google.com.ph"
+    },
+    {
+      "file": "google-scholar",
+      "line": 40,
+      "type": "full",
+      "value": "scholar.google.com.pk"
+    },
+    {
+      "file": "google-scholar",
+      "line": 41,
+      "type": "full",
+      "value": "scholar.google.com.pr"
+    },
+    {
+      "file": "google-scholar",
+      "line": 42,
+      "type": "full",
+      "value": "scholar.google.com.py"
+    },
+    {
+      "file": "google-scholar",
+      "line": 43,
+      "type": "full",
+      "value": "scholar.google.com.sg"
+    },
+    {
+      "file": "google-scholar",
+      "line": 44,
+      "type": "full",
+      "value": "scholar.google.com.sv"
+    },
+    {
+      "file": "google-scholar",
+      "line": 45,
+      "type": "full",
+      "value": "scholar.google.com.tr"
+    },
+    {
+      "file": "google-scholar",
+      "line": 46,
+      "type": "full",
+      "value": "scholar.google.com.tw"
+    },
+    {
+      "file": "google-scholar",
+      "line": 47,
+      "type": "full",
+      "value": "scholar.google.com.ua"
+    },
+    {
+      "file": "google-scholar",
+      "line": 48,
+      "type": "full",
+      "value": "scholar.google.com.uy"
+    },
+    {
+      "file": "google-scholar",
+      "line": 49,
+      "type": "full",
+      "value": "scholar.google.com.vn"
+    },
+    {
+      "file": "google-scholar",
+      "line": 50,
+      "type": "full",
+      "value": "scholar.google.cz"
+    },
+    {
+      "file": "google-scholar",
+      "line": 51,
+      "type": "full",
+      "value": "scholar.google.de"
+    },
+    {
+      "file": "google-scholar",
+      "line": 52,
+      "type": "full",
+      "value": "scholar.google.dk"
+    },
+    {
+      "file": "google-scholar",
+      "line": 53,
+      "type": "full",
+      "value": "scholar.google.es"
+    },
+    {
+      "file": "google-scholar",
+      "line": 54,
+      "type": "full",
+      "value": "scholar.google.fi"
+    },
+    {
+      "file": "google-scholar",
+      "line": 55,
+      "type": "full",
+      "value": "scholar.google.fr"
+    },
+    {
+      "file": "google-scholar",
+      "line": 56,
+      "type": "full",
+      "value": "scholar.google.gr"
+    },
+    {
+      "file": "google-scholar",
+      "line": 57,
+      "type": "full",
+      "value": "scholar.google.hn"
+    },
+    {
+      "file": "google-scholar",
+      "line": 58,
+      "type": "full",
+      "value": "scholar.google.hr"
+    },
+    {
+      "file": "google-scholar",
+      "line": 59,
+      "type": "full",
+      "value": "scholar.google.hu"
+    },
+    {
+      "file": "google-scholar",
+      "line": 60,
+      "type": "full",
+      "value": "scholar.google.is"
+    },
+    {
+      "file": "google-scholar",
+      "line": 61,
+      "type": "full",
+      "value": "scholar.google.it"
+    },
+    {
+      "file": "google-scholar",
+      "line": 62,
+      "type": "full",
+      "value": "scholar.google.li"
+    },
+    {
+      "file": "google-scholar",
+      "line": 63,
+      "type": "full",
+      "value": "scholar.google.lt"
+    },
+    {
+      "file": "google-scholar",
+      "line": 64,
+      "type": "full",
+      "value": "scholar.google.lu"
+    },
+    {
+      "file": "google-scholar",
+      "line": 65,
+      "type": "full",
+      "value": "scholar.google.lv"
+    },
+    {
+      "file": "google-scholar",
+      "line": 66,
+      "type": "full",
+      "value": "scholar.google.nl"
+    },
+    {
+      "file": "google-scholar",
+      "line": 67,
+      "type": "full",
+      "value": "scholar.google.no"
+    },
+    {
+      "file": "google-scholar",
+      "line": 68,
+      "type": "full",
+      "value": "scholar.google.pl"
+    },
+    {
+      "file": "google-scholar",
+      "line": 69,
+      "type": "full",
+      "value": "scholar.google.pt"
+    },
+    {
+      "file": "google-scholar",
+      "line": 70,
+      "type": "full",
+      "value": "scholar.google.ro"
+    },
+    {
+      "file": "google-scholar",
+      "line": 71,
+      "type": "full",
+      "value": "scholar.google.ru"
+    },
+    {
+      "file": "google-scholar",
+      "line": 72,
+      "type": "full",
+      "value": "scholar.google.se"
+    },
+    {
+      "file": "google-scholar",
+      "line": 73,
+      "type": "full",
+      "value": "scholar.google.si"
+    },
+    {
+      "file": "google-scholar",
+      "line": 74,
+      "type": "full",
+      "value": "scholar.google.sk"
+    },
+    {
+      "file": "google-scholar",
+      "line": 75,
+      "type": "full",
+      "value": "scholar.googleusercontent.com"
+    },
+    {
+      "file": "google-scholar",
+      "line": 76,
+      "type": "full",
+      "value": "scholar.l.google.com"
+    },
+    {
+      "file": "google-trust-services",
+      "line": 3,
+      "type": "full",
+      "value": "pki-goog.l.google.com"
+    },
+    {
+      "file": "google-trust-services",
+      "line": 5,
+      "type": "full",
+      "value": "c.pki.goog"
+    },
+    {
+      "file": "google-trust-services",
+      "line": 6,
+      "type": "full",
+      "value": "i.pki.goog"
+    },
+    {
+      "file": "google-trust-services",
+      "line": 7,
+      "type": "full",
+      "value": "o.pki.goog"
+    },
+    {
+      "file": "google-trust-services",
+      "line": 10,
+      "type": "full",
+      "value": "publicca.googleapis.com"
+    },
+    {
+      "file": "google-trust-services",
+      "line": 11,
+      "type": "full",
+      "value": "preprod-publicca.googleapis.com"
+    },
+    {
+      "file": "google-trust-services",
+      "line": 14,
+      "type": "full",
+      "value": "clients1.google.com"
+    },
+    {
+      "file": "google-trust-services",
+      "line": 15,
+      "type": "full",
+      "value": "pki.google.com"
+    },
+    {
+      "file": "google-trust-services",
+      "line": 18,
+      "type": "full",
+      "value": "crl.pki.goog"
+    },
+    {
+      "file": "google-trust-services",
+      "line": 19,
+      "type": "full",
+      "value": "crls.pki.goog"
+    },
+    {
+      "file": "google-trust-services",
+      "line": 20,
+      "type": "full",
+      "value": "ocsp.pki.goog"
+    },
+    {
+      "file": "googlefcm",
+      "line": 1,
+      "type": "full",
+      "value": "alt1-mtalk.google.com"
+    },
+    {
+      "file": "googlefcm",
+      "line": 2,
+      "type": "full",
+      "value": "alt2-mtalk.google.com"
+    },
+    {
+      "file": "googlefcm",
+      "line": 3,
+      "type": "full",
+      "value": "alt3-mtalk.google.com"
+    },
+    {
+      "file": "googlefcm",
+      "line": 4,
+      "type": "full",
+      "value": "alt4-mtalk.google.com"
+    },
+    {
+      "file": "googlefcm",
+      "line": 5,
+      "type": "full",
+      "value": "alt5-mtalk.google.com"
+    },
+    {
+      "file": "googlefcm",
+      "line": 6,
+      "type": "full",
+      "value": "alt6-mtalk.google.com"
+    },
+    {
+      "file": "googlefcm",
+      "line": 7,
+      "type": "full",
+      "value": "alt7-mtalk.google.com"
+    },
+    {
+      "file": "googlefcm",
+      "line": 8,
+      "type": "full",
+      "value": "alt8-mtalk.google.com"
+    },
+    {
+      "file": "googlefcm",
+      "line": 9,
+      "type": "full",
+      "value": "mtalk-dev.google.com"
+    },
+    {
+      "file": "googlefcm",
+      "line": 10,
+      "type": "full",
+      "value": "mtalk-staging.google.com"
+    },
+    {
+      "file": "googlefcm",
+      "line": 11,
+      "type": "full",
+      "value": "mtalk.google.com"
+    },
+    {
+      "file": "googlefcm",
+      "line": 12,
+      "type": "full",
+      "value": "mtalk4.google.com"
+    },
+    {
+      "file": "youtube",
+      "line": 179,
+      "type": "full",
+      "value": "yt3.googleusercontent.com"
+    },
+    {
+      "file": "google",
+      "line": 538,
+      "type": "full",
+      "value": "google-ohttp-relay-safebrowsing.fastly-edge.com"
+    },
+    {
+      "file": "google",
+      "line": 593,
+      "type": "full",
+      "value": "analytics.google.com"
+    },
+    {
+      "file": "google",
+      "line": 602,
+      "type": "full",
+      "value": "recaptcha-cn.net"
+    },
+    {
+      "file": "google",
+      "line": 603,
+      "type": "full",
+      "value": "recaptcha.net"
+    },
+    {
+      "file": "google",
+      "line": 604,
+      "type": "full",
+      "value": "www.recaptcha-cn.net"
+    },
+    {
+      "file": "google",
+      "line": 605,
+      "type": "full",
+      "value": "www.recaptcha.net"
+    },
+    {
+      "file": "google",
+      "line": 611,
+      "type": "full",
+      "value": "2mdn-cn.net"
+    },
+    {
+      "file": "google",
+      "line": 612,
+      "type": "full",
+      "value": "2mdn.net"
+    },
+    {
+      "file": "google",
+      "line": 613,
+      "type": "full",
+      "value": "admob-cn.com"
+    },
+    {
+      "file": "google",
+      "line": 614,
+      "type": "full",
+      "value": "adservice.google.com"
+    },
+    {
+      "file": "google",
+      "line": 615,
+      "type": "full",
+      "value": "app-analytics-services.com"
+    },
+    {
+      "file": "google",
+      "line": 616,
+      "type": "full",
+      "value": "app-measurement-cn.com"
+    },
+    {
+      "file": "google",
+      "line": 617,
+      "type": "full",
+      "value": "app-measurement.com"
+    },
+    {
+      "file": "google",
+      "line": 618,
+      "type": "full",
+      "value": "apps5.oingo.com"
+    },
+    {
+      "file": "google",
+      "line": 619,
+      "type": "full",
+      "value": "avail.googleflights.net"
+    },
+    {
+      "file": "google",
+      "line": 620,
+      "type": "full",
+      "value": "beacons.gcp.gvt2.com"
+    },
+    {
+      "file": "google",
+      "line": 621,
+      "type": "full",
+      "value": "beacons.gvt2.com"
+    },
+    {
+      "file": "google",
+      "line": 622,
+      "type": "full",
+      "value": "beacons2.gvt2.com"
+    },
+    {
+      "file": "google",
+      "line": 623,
+      "type": "full",
+      "value": "beacons3.gvt2.com"
+    },
+    {
+      "file": "google",
+      "line": 624,
+      "type": "full",
+      "value": "c.admob.com"
+    },
+    {
+      "file": "google",
+      "line": 625,
+      "type": "full",
+      "value": "c.android.clients.google.com"
+    },
+    {
+      "file": "google",
+      "line": 626,
+      "type": "full",
+      "value": "cache-management-prod.google.com"
+    },
+    {
+      "file": "google",
+      "line": 627,
+      "type": "full",
+      "value": "cache.pack.google.com"
+    },
+    {
+      "file": "google",
+      "line": 628,
+      "type": "full",
+      "value": "checkin.gstatic.com"
+    },
+    {
+      "file": "google",
+      "line": 629,
+      "type": "full",
+      "value": "clickserve.cc-dt.com"
+    },
+    {
+      "file": "google",
+      "line": 630,
+      "type": "full",
+      "value": "clickserve.dartsearch.net"
+    },
+    {
+      "file": "google",
+      "line": 631,
+      "type": "full",
+      "value": "clickserver.googleads.com"
+    },
+    {
+      "file": "google",
+      "line": 632,
+      "type": "full",
+      "value": "clientservices.googleapis.com"
+    },
+    {
+      "file": "google",
+      "line": 633,
+      "type": "full",
+      "value": "cn.widevine.com"
+    },
+    {
+      "file": "google",
+      "line": 634,
+      "type": "full",
+      "value": "connectivitycheck.gstatic.com"
+    },
+    {
+      "file": "google",
+      "line": 635,
+      "type": "full",
+      "value": "csi.gstatic.com"
+    },
+    {
+      "file": "google",
+      "line": 636,
+      "type": "full",
+      "value": "dartsearch-cn.net"
+    },
+    {
+      "file": "google",
+      "line": 637,
+      "type": "full",
+      "value": "dg-meta.video.google.com"
+    },
+    {
+      "file": "google",
+      "line": 638,
+      "type": "full",
+      "value": "dl.google.com"
+    },
+    {
+      "file": "google",
+      "line": 639,
+      "type": "full",
+      "value": "dl.l.google.com"
+    },
+    {
+      "file": "google",
+      "line": 640,
+      "type": "full",
+      "value": "doubleclick-cn.net"
+    },
+    {
+      "file": "google",
+      "line": 641,
+      "type": "full",
+      "value": "doubleclick.net"
+    },
+    {
+      "file": "google",
+      "line": 642,
+      "type": "full",
+      "value": "download.mlcc.google.com"
+    },
+    {
+      "file": "google",
+      "line": 643,
+      "type": "full",
+      "value": "download.tensorflow.google.com"
+    },
+    {
+      "file": "google",
+      "line": 644,
+      "type": "full",
+      "value": "fontfiles.googleapis.com"
+    },
+    {
+      "file": "google",
+      "line": 645,
+      "type": "full",
+      "value": "fonts.googleapis.com"
+    },
+    {
+      "file": "google",
+      "line": 646,
+      "type": "full",
+      "value": "fonts.gstatic.com"
+    },
+    {
+      "file": "google",
+      "line": 647,
+      "type": "full",
+      "value": "g0.gstatic.com"
+    },
+    {
+      "file": "google",
+      "line": 648,
+      "type": "full",
+      "value": "g1.gstatic.com"
+    },
+    {
+      "file": "google",
+      "line": 649,
+      "type": "full",
+      "value": "g2.gstatic.com"
+    },
+    {
+      "file": "google",
+      "line": 650,
+      "type": "full",
+      "value": "g3.gstatic.com"
+    },
+    {
+      "file": "google",
+      "line": 651,
+      "type": "full",
+      "value": "gonglchuangl.net"
+    },
+    {
+      "file": "google",
+      "line": 652,
+      "type": "full",
+      "value": "gongyichuangyi.net"
+    },
+    {
+      "file": "google",
+      "line": 653,
+      "type": "full",
+      "value": "google-analytics-cn.com"
+    },
+    {
+      "file": "google",
+      "line": 654,
+      "type": "full",
+      "value": "google-analytics.com"
+    },
+    {
+      "file": "google",
+      "line": 655,
+      "type": "full",
+      "value": "googleadservices-cn.com"
+    },
+    {
+      "file": "google",
+      "line": 656,
+      "type": "full",
+      "value": "googleadservices.com"
+    },
+    {
+      "file": "google",
+      "line": 657,
+      "type": "full",
+      "value": "googleanalytics.com"
+    },
+    {
+      "file": "google",
+      "line": 658,
+      "type": "full",
+      "value": "googleapis-cn.com"
+    },
+    {
+      "file": "google",
+      "line": 659,
+      "type": "full",
+      "value": "googleapps-cn.com"
+    },
+    {
+      "file": "google",
+      "line": 660,
+      "type": "full",
+      "value": "googleflights-cn.net"
+    },
+    {
+      "file": "google",
+      "line": 661,
+      "type": "full",
+      "value": "googleoptimize-cn.com"
+    },
+    {
+      "file": "google",
+      "line": 662,
+      "type": "full",
+      "value": "googleoptimize.com"
+    },
+    {
+      "file": "google",
+      "line": 663,
+      "type": "full",
+      "value": "googlesyndication-cn.com"
+    },
+    {
+      "file": "google",
+      "line": 664,
+      "type": "full",
+      "value": "googlesyndication.com"
+    },
+    {
+      "file": "google",
+      "line": 665,
+      "type": "full",
+      "value": "googletagmanager-cn.com"
+    },
+    {
+      "file": "google",
+      "line": 666,
+      "type": "full",
+      "value": "googletagmanager.com"
+    },
+    {
+      "file": "google",
+      "line": 667,
+      "type": "full",
+      "value": "googletagservices-cn.com"
+    },
+    {
+      "file": "google",
+      "line": 668,
+      "type": "full",
+      "value": "googletagservices.com"
+    },
+    {
+      "file": "google",
+      "line": 669,
+      "type": "full",
+      "value": "googletraveladservices-cn.com"
+    },
+    {
+      "file": "google",
+      "line": 670,
+      "type": "full",
+      "value": "googletraveladservices.com"
+    },
+    {
+      "file": "google",
+      "line": 671,
+      "type": "full",
+      "value": "googlevads-cn.com"
+    },
+    {
+      "file": "google",
+      "line": 672,
+      "type": "full",
+      "value": "gstatic-cn.com"
+    },
+    {
+      "file": "google",
+      "line": 673,
+      "type": "full",
+      "value": "gstaticadssl.l.google.com"
+    },
+    {
+      "file": "google",
+      "line": 674,
+      "type": "full",
+      "value": "gtm.oasisfeng.com"
+    },
+    {
+      "file": "google",
+      "line": 675,
+      "type": "full",
+      "value": "imasdk.googleapis.com"
+    },
+    {
+      "file": "google",
+      "line": 676,
+      "type": "full",
+      "value": "pagead-googlehosted.l.google.com"
+    },
+    {
+      "file": "google",
+      "line": 677,
+      "type": "full",
+      "value": "performanceparameters.googleapis.com"
+    },
+    {
+      "file": "google",
+      "line": 678,
+      "type": "full",
+      "value": "prod-controlbe.floonet.goog"
+    },
+    {
+      "file": "google",
+      "line": 679,
+      "type": "full",
+      "value": "prod-databe.floonet.goog"
+    },
+    {
+      "file": "google",
+      "line": 680,
+      "type": "full",
+      "value": "prod.databe.floonet.goog"
+    },
+    {
+      "file": "google",
+      "line": 681,
+      "type": "full",
+      "value": "qiao-cn.com"
+    },
+    {
+      "file": "google",
+      "line": 682,
+      "type": "full",
+      "value": "qpx.googleflights.net"
+    },
+    {
+      "file": "google",
+      "line": 683,
+      "type": "full",
+      "value": "redirector.bdn.dev"
+    },
+    {
+      "file": "google",
+      "line": 684,
+      "type": "full",
+      "value": "redirector.c.chat.google.com"
+    },
+    {
+      "file": "google",
+      "line": 685,
+      "type": "full",
+      "value": "redirector.c.mail.google.com"
+    },
+    {
+      "file": "google",
+      "line": 686,
+      "type": "full",
+      "value": "redirector.c.pack.google.com"
+    },
+    {
+      "file": "google",
+      "line": 687,
+      "type": "full",
+      "value": "redirector.c.youtubeeducation.com"
+    },
+    {
+      "file": "google",
+      "line": 688,
+      "type": "full",
+      "value": "redirector.gcpcdn.gvt1.com"
+    },
+    {
+      "file": "google",
+      "line": 689,
+      "type": "full",
+      "value": "redirector.gvt1.com"
+    },
+    {
+      "file": "google",
+      "line": 690,
+      "type": "full",
+      "value": "redirector.offline-maps.gvt1.com"
+    },
+    {
+      "file": "google",
+      "line": 691,
+      "type": "full",
+      "value": "redirector.snap.gvt1.com"
+    },
+    {
+      "file": "google",
+      "line": 692,
+      "type": "full",
+      "value": "redirector.xn--ngstr-lra8j.com"
+    },
+    {
+      "file": "google",
+      "line": 693,
+      "type": "full",
+      "value": "safebrowsing-cache.google.com"
+    },
+    {
+      "file": "google",
+      "line": 694,
+      "type": "full",
+      "value": "safebrowsing.googleapis.com"
+    },
+    {
+      "file": "google",
+      "line": 695,
+      "type": "full",
+      "value": "service.urchin.com"
+    },
+    {
+      "file": "google",
+      "line": 696,
+      "type": "full",
+      "value": "ssl-google-analytics.l.google.com"
+    },
+    {
+      "file": "google",
+      "line": 697,
+      "type": "full",
+      "value": "ssl.gstatic.com"
+    },
+    {
+      "file": "google",
+      "line": 698,
+      "type": "full",
+      "value": "staging-controlbe.floonet.goog"
+    },
+    {
+      "file": "google",
+      "line": 699,
+      "type": "full",
+      "value": "staging-databe.floonet.goog"
+    },
+    {
+      "file": "google",
+      "line": 700,
+      "type": "full",
+      "value": "staging.databe.floonet.goog"
+    },
+    {
+      "file": "google",
+      "line": 701,
+      "type": "full",
+      "value": "tac.googleapis.com"
+    },
+    {
+      "file": "google",
+      "line": 702,
+      "type": "full",
+      "value": "tools.google.com"
+    },
+    {
+      "file": "google",
+      "line": 703,
+      "type": "full",
+      "value": "update.googleapis.com"
+    },
+    {
+      "file": "google",
+      "line": 704,
+      "type": "full",
+      "value": "wear.googleapis.com"
+    },
+    {
+      "file": "google",
+      "line": 705,
+      "type": "full",
+      "value": "www-google-analytics.l.google.com"
+    },
+    {
+      "file": "google",
+      "line": 706,
+      "type": "full",
+      "value": "www-googletagmanager.l.google.com"
+    },
+    {
+      "file": "google",
+      "line": 707,
+      "type": "full",
+      "value": "www.destinationurl.com"
+    },
+    {
+      "file": "google",
+      "line": 708,
+      "type": "full",
+      "value": "www.gstatic.com"
+    },
+    {
+      "file": "google",
+      "line": 709,
+      "type": "full",
+      "value": "www.pxcc.com"
+    },
+    {
+      "file": "azure",
+      "line": 144,
+      "type": "full",
+      "value": "azure.microsoft.com"
+    },
+    {
+      "file": "azure",
+      "line": 145,
+      "type": "full",
+      "value": "azuremarketplace.microsoft.com"
+    },
+    {
+      "file": "azure",
+      "line": 146,
+      "type": "full",
+      "value": "dc.applicationinsights.azure.com"
+    },
+    {
+      "file": "azure",
+      "line": 147,
+      "type": "full",
+      "value": "live.applicationinsights.azure.com"
+    },
+    {
+      "file": "bing",
+      "line": 38,
+      "type": "full",
+      "value": "location.microsoft.com"
+    },
+    {
+      "file": "bing",
+      "line": 46,
+      "type": "full",
+      "value": "bj1.api.bing.com"
+    },
+    {
+      "file": "github-copilot",
+      "line": 3,
+      "type": "full",
+      "value": "copilot-proxy.githubusercontent.com"
+    },
+    {
+      "file": "github-copilot",
+      "line": 4,
+      "type": "full",
+      "value": "copilot-workspace.githubnext.com"
+    },
+    {
+      "file": "github-copilot",
+      "line": 7,
+      "type": "full",
+      "value": "copilotprodattachments.blob.core.windows.net"
+    },
+    {
+      "file": "github-copilot",
+      "line": 10,
+      "type": "full",
+      "value": "copilot-telemetry-service.githubusercontent.com"
+    },
+    {
+      "file": "github-copilot",
+      "line": 11,
+      "type": "full",
+      "value": "copilot-telemetry.githubusercontent.com"
+    },
+    {
+      "file": "github",
+      "line": 32,
+      "type": "full",
+      "value": "github-api.arkoselabs.com"
+    },
+    {
+      "file": "github",
+      "line": 35,
+      "type": "full",
+      "value": "github-cloud.s3.amazonaws.com"
+    },
+    {
+      "file": "github",
+      "line": 36,
+      "type": "full",
+      "value": "github-production-release-asset-2e65be.s3.amazonaws.com"
+    },
+    {
+      "file": "github",
+      "line": 37,
+      "type": "full",
+      "value": "github-production-repository-file-5c1aeb.s3.amazonaws.com"
+    },
+    {
+      "file": "github",
+      "line": 38,
+      "type": "full",
+      "value": "github-production-repository-image-32fea6.s3.amazonaws.com"
+    },
+    {
+      "file": "github",
+      "line": 39,
+      "type": "full",
+      "value": "github-production-upload-manifest-file-7fdce7.s3.amazonaws.com"
+    },
+    {
+      "file": "github",
+      "line": 40,
+      "type": "full",
+      "value": "github-production-user-asset-6210df.s3.amazonaws.com"
+    },
+    {
+      "file": "github",
+      "line": 43,
+      "type": "full",
+      "value": "productionresultssa0.blob.core.windows.net"
+    },
+    {
+      "file": "github",
+      "line": 44,
+      "type": "full",
+      "value": "productionresultssa1.blob.core.windows.net"
+    },
+    {
+      "file": "github",
+      "line": 45,
+      "type": "full",
+      "value": "productionresultssa2.blob.core.windows.net"
+    },
+    {
+      "file": "github",
+      "line": 46,
+      "type": "full",
+      "value": "productionresultssa3.blob.core.windows.net"
+    },
+    {
+      "file": "github",
+      "line": 47,
+      "type": "full",
+      "value": "productionresultssa4.blob.core.windows.net"
+    },
+    {
+      "file": "github",
+      "line": 48,
+      "type": "full",
+      "value": "productionresultssa5.blob.core.windows.net"
+    },
+    {
+      "file": "github",
+      "line": 49,
+      "type": "full",
+      "value": "productionresultssa6.blob.core.windows.net"
+    },
+    {
+      "file": "github",
+      "line": 50,
+      "type": "full",
+      "value": "productionresultssa7.blob.core.windows.net"
+    },
+    {
+      "file": "github",
+      "line": 51,
+      "type": "full",
+      "value": "productionresultssa8.blob.core.windows.net"
+    },
+    {
+      "file": "github",
+      "line": 52,
+      "type": "full",
+      "value": "productionresultssa9.blob.core.windows.net"
+    },
+    {
+      "file": "github",
+      "line": 53,
+      "type": "full",
+      "value": "productionresultssa10.blob.core.windows.net"
+    },
+    {
+      "file": "github",
+      "line": 54,
+      "type": "full",
+      "value": "productionresultssa11.blob.core.windows.net"
+    },
+    {
+      "file": "github",
+      "line": 55,
+      "type": "full",
+      "value": "productionresultssa12.blob.core.windows.net"
+    },
+    {
+      "file": "github",
+      "line": 56,
+      "type": "full",
+      "value": "productionresultssa13.blob.core.windows.net"
+    },
+    {
+      "file": "github",
+      "line": 57,
+      "type": "full",
+      "value": "productionresultssa14.blob.core.windows.net"
+    },
+    {
+      "file": "github",
+      "line": 58,
+      "type": "full",
+      "value": "productionresultssa15.blob.core.windows.net"
+    },
+    {
+      "file": "github",
+      "line": 59,
+      "type": "full",
+      "value": "productionresultssa16.blob.core.windows.net"
+    },
+    {
+      "file": "github",
+      "line": 60,
+      "type": "full",
+      "value": "productionresultssa17.blob.core.windows.net"
+    },
+    {
+      "file": "github",
+      "line": 61,
+      "type": "full",
+      "value": "productionresultssa18.blob.core.windows.net"
+    },
+    {
+      "file": "github",
+      "line": 62,
+      "type": "full",
+      "value": "productionresultssa19.blob.core.windows.net"
+    },
+    {
+      "file": "microsoft-dev",
+      "line": 60,
+      "type": "full",
+      "value": "az764295.vo.msecnd.net"
+    },
+    {
+      "file": "microsoft-dev",
+      "line": 61,
+      "type": "full",
+      "value": "bingsettingssearch.trafficmanager.net"
+    },
+    {
+      "file": "microsoft-dev",
+      "line": 62,
+      "type": "full",
+      "value": "dc.services.visualstudio.com"
+    },
+    {
+      "file": "microsoft-dev",
+      "line": 63,
+      "type": "full",
+      "value": "default.exp-tas.com"
+    },
+    {
+      "file": "microsoft-dev",
+      "line": 64,
+      "type": "full",
+      "value": "developer.microsoft.com"
+    },
+    {
+      "file": "microsoft-dev",
+      "line": 65,
+      "type": "full",
+      "value": "download.visualstudio.microsoft.com"
+    },
+    {
+      "file": "microsoft-dev",
+      "line": 66,
+      "type": "full",
+      "value": "dtlgalleryint.cloudapp.net"
+    },
+    {
+      "file": "microsoft-dev",
+      "line": 67,
+      "type": "full",
+      "value": "packages.microsoft.com"
+    },
+    {
+      "file": "microsoft-dev",
+      "line": 68,
+      "type": "full",
+      "value": "poshtestgallery.cloudapp.net"
+    },
+    {
+      "file": "microsoft-dev",
+      "line": 69,
+      "type": "full",
+      "value": "psg-int-centralus.cloudapp.net"
+    },
+    {
+      "file": "microsoft-dev",
+      "line": 70,
+      "type": "full",
+      "value": "psg-int-eastus.cloudapp.net"
+    },
+    {
+      "file": "microsoft-dev",
+      "line": 71,
+      "type": "full",
+      "value": "rink.hockeyapp.net"
+    },
+    {
+      "file": "microsoft-dev",
+      "line": 72,
+      "type": "full",
+      "value": "rt.services.visualstudio.com"
+    },
+    {
+      "file": "microsoft-dev",
+      "line": 73,
+      "type": "full",
+      "value": "vscode-sync-insiders.trafficmanager.net"
+    },
+    {
+      "file": "microsoft-dev",
+      "line": 74,
+      "type": "full",
+      "value": "vscode-sync.trafficmanager.net"
+    },
+    {
+      "file": "microsoft-dev",
+      "line": 75,
+      "type": "full",
+      "value": "vscode.blob.core.windows.net"
+    },
+    {
+      "file": "microsoft-dev",
+      "line": 76,
+      "type": "full",
+      "value": "vscode.search.windows.net"
+    },
+    {
+      "file": "microsoft-dev",
+      "line": 77,
+      "type": "full",
+      "value": "vsmarketplacebadge.apphb.com"
+    },
+    {
+      "file": "microsoft-pki",
+      "line": 3,
+      "type": "full",
+      "value": "crl.microsoft.com"
+    },
+    {
+      "file": "microsoft-pki",
+      "line": 4,
+      "type": "full",
+      "value": "mscrl.microsoft.com"
+    },
+    {
+      "file": "microsoft-pki",
+      "line": 5,
+      "type": "full",
+      "value": "ocsp.microsoft.com"
+    },
+    {
+      "file": "microsoft-pki",
+      "line": 6,
+      "type": "full",
+      "value": "oneocsp.microsoft.com"
+    },
+    {
+      "file": "microsoft-pki",
+      "line": 7,
+      "type": "full",
+      "value": "www.microsoft.com"
+    },
+    {
+      "file": "forza",
+      "line": 6,
+      "type": "full",
+      "value": "prodforza.blob.core.windows.net"
+    },
+    {
+      "file": "microsoft",
+      "line": 310,
+      "type": "full",
+      "value": "img-prod-cms-rt-microsoft-com.akamaized.net"
+    },
+    {
+      "file": "microsoft",
+      "line": 311,
+      "type": "full",
+      "value": "img-s-msn-com.akamaized.net"
+    },
+    {
+      "file": "microsoft",
+      "line": 312,
+      "type": "full",
+      "value": "mwf-service.akamaized.net"
+    },
+    {
+      "file": "microsoft",
+      "line": 313,
+      "type": "full",
+      "value": "officecdn-microsoft-com.akamaized.net"
+    },
+    {
+      "file": "microsoft",
+      "line": 314,
+      "type": "full",
+      "value": "statics-marketingsites-eas-ms-com.akamaized.net"
+    },
+    {
+      "file": "microsoft",
+      "line": 315,
+      "type": "full",
+      "value": "statics-marketingsites-eus-ms-com.akamaized.net"
+    },
+    {
+      "file": "microsoft",
+      "line": 316,
+      "type": "full",
+      "value": "statics-marketingsites-wcus-ms-com.akamaized.net"
+    },
+    {
+      "file": "microsoft",
+      "line": 332,
+      "type": "full",
+      "value": "azuremigrate.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 333,
+      "type": "full",
+      "value": "azuremigratetest.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 334,
+      "type": "full",
+      "value": "azurestackhub.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 335,
+      "type": "full",
+      "value": "azurestackhubuat.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 336,
+      "type": "full",
+      "value": "b.c2r.ts.cdn.office.net"
+    },
+    {
+      "file": "microsoft",
+      "line": 337,
+      "type": "full",
+      "value": "cbdstest.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 338,
+      "type": "full",
+      "value": "cn.windowssearch.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 339,
+      "type": "full",
+      "value": "collaborate.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 340,
+      "type": "full",
+      "value": "collaborateppe.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 341,
+      "type": "full",
+      "value": "ctldl.windowsupdate.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 342,
+      "type": "full",
+      "value": "developer.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 343,
+      "type": "full",
+      "value": "download.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 344,
+      "type": "full",
+      "value": "dreamspark.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 345,
+      "type": "full",
+      "value": "dreamsparkuat.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 346,
+      "type": "full",
+      "value": "f.c2r.ts.cdn.office.net"
+    },
+    {
+      "file": "microsoft",
+      "line": 347,
+      "type": "full",
+      "value": "itacademy.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 348,
+      "type": "full",
+      "value": "itacademyuat.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 349,
+      "type": "full",
+      "value": "lex.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 350,
+      "type": "full",
+      "value": "lexuat.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 351,
+      "type": "full",
+      "value": "mbs.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 352,
+      "type": "full",
+      "value": "mpnbenefits.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 353,
+      "type": "full",
+      "value": "mpnbenefitsrtl.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 354,
+      "type": "full",
+      "value": "mpnbenefitsrtluat.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 355,
+      "type": "full",
+      "value": "msdn.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 356,
+      "type": "full",
+      "value": "msdprod-ad.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 357,
+      "type": "full",
+      "value": "msproduct.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 358,
+      "type": "full",
+      "value": "myvs.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 359,
+      "type": "full",
+      "value": "oemsoc.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 360,
+      "type": "full",
+      "value": "oemsocuat.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 361,
+      "type": "full",
+      "value": "officecdn.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 362,
+      "type": "full",
+      "value": "officemkt.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 363,
+      "type": "full",
+      "value": "officemktuat.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 364,
+      "type": "full",
+      "value": "osrelease.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 365,
+      "type": "full",
+      "value": "rsm.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 366,
+      "type": "full",
+      "value": "sdx.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 367,
+      "type": "full",
+      "value": "shell.cdn.office.net"
+    },
+    {
+      "file": "microsoft",
+      "line": 368,
+      "type": "full",
+      "value": "software.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 369,
+      "type": "full",
+      "value": "statics.teams.cdn.office.net"
+    },
+    {
+      "file": "microsoft",
+      "line": 370,
+      "type": "full",
+      "value": "storecorefulfillment.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 371,
+      "type": "full",
+      "value": "storeedge.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 372,
+      "type": "full",
+      "value": "storeedgefd.dsx.mp.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 373,
+      "type": "full",
+      "value": "surface.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 374,
+      "type": "full",
+      "value": "surface.downloads.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 375,
+      "type": "full",
+      "value": "vlportal.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 376,
+      "type": "full",
+      "value": "volic.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 377,
+      "type": "full",
+      "value": "vscode.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 378,
+      "type": "full",
+      "value": "vz.download.prss.microsoft.com"
+    },
+    {
+      "file": "microsoft",
+      "line": 379,
+      "type": "full",
+      "value": "windbg.download.prss.microsoft.com"
+    },
+    {
+      "file": "juejin",
+      "line": 5,
+      "type": "full",
+      "value": "p1-juejin.byteimg.com"
+    },
+    {
+      "file": "juejin",
+      "line": 6,
+      "type": "full",
+      "value": "p2-juejin.byteimg.com"
+    },
+    {
+      "file": "juejin",
+      "line": 7,
+      "type": "full",
+      "value": "p3-juejin.byteimg.com"
+    },
+    {
+      "file": "juejin",
+      "line": 8,
+      "type": "full",
+      "value": "p4-juejin.byteimg.com"
+    },
+    {
+      "file": "juejin",
+      "line": 9,
+      "type": "full",
+      "value": "p5-juejin.byteimg.com"
+    },
+    {
+      "file": "juejin",
+      "line": 10,
+      "type": "full",
+      "value": "p6-juejin.byteimg.com"
+    },
+    {
+      "file": "juejin",
+      "line": 11,
+      "type": "full",
+      "value": "p7-juejin.byteimg.com"
+    },
+    {
+      "file": "juejin",
+      "line": 12,
+      "type": "full",
+      "value": "p8-juejin.byteimg.com"
+    },
+    {
+      "file": "juejin",
+      "line": 13,
+      "type": "full",
+      "value": "p9-juejin.byteimg.com"
+    },
+    {
+      "file": "mihoyo-cn",
+      "line": 31,
+      "type": "regexp",
+      "value": "^.+-mihayo\\.akamaized\\.net$"
+    },
+    {
+      "file": "category-games-cn",
+      "line": 39,
+      "type": "full",
+      "value": "end-api.shallow.ink"
+    },
+    {
+      "file": "category-games-cn",
+      "line": 40,
+      "type": "full",
+      "value": "end.shallow.ink"
+    },
+    {
+      "file": "fqnovel",
+      "line": 32,
+      "type": "full",
+      "value": "p3-novel.byteimg.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 33,
+      "type": "full",
+      "value": "p6-novel.byteimg.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 36,
+      "type": "full",
+      "value": "ads3-normal-hl.zijieapi.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 37,
+      "type": "full",
+      "value": "ads3-normal.zijieapi.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 38,
+      "type": "full",
+      "value": "ads5-normal-hl.zijieapi.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 39,
+      "type": "full",
+      "value": "ads5-normal.zijieapi.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 40,
+      "type": "full",
+      "value": "log3-applog-hl.fqnovel.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 41,
+      "type": "full",
+      "value": "log3-applog.fqnovel.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 42,
+      "type": "full",
+      "value": "log5-applog-hl.fqnovel.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 43,
+      "type": "full",
+      "value": "log5-applog.fqnovel.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 44,
+      "type": "full",
+      "value": "p3-ad-sign.byteimg.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 45,
+      "type": "full",
+      "value": "p6-ad-sign.byteimg.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 46,
+      "type": "full",
+      "value": "p9-ad-sign.byteimg.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 47,
+      "type": "full",
+      "value": "rtlog3-applog-hl.fqnovel.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 48,
+      "type": "full",
+      "value": "rtlog3-applog.fqnovel.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 49,
+      "type": "full",
+      "value": "rtlog5-applog-hl.fqnovel.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 50,
+      "type": "full",
+      "value": "rtlog5-applog.fqnovel.com"
+    },
+    {
+      "file": "acfun",
+      "line": 12,
+      "type": "full",
+      "value": "apilog-web.acfun.cn"
+    },
+    {
+      "file": "kuaishou",
+      "line": 35,
+      "type": "full",
+      "value": "log-sdk.gifshow.com"
+    },
+    {
+      "file": "kuaishou",
+      "line": 36,
+      "type": "full",
+      "value": "wlog.kuaishou.com"
+    },
+    {
+      "file": "youku",
+      "line": 12,
+      "type": "full",
+      "value": "ykimg.alicdn.com"
+    },
+    {
+      "file": "category-media-cn",
+      "line": 153,
+      "type": "full",
+      "value": "ctdsb.clouddiffuse.xyz"
+    },
+    {
+      "file": "aws-cn",
+      "line": 31,
+      "type": "regexp",
+      "value": "+\\.awsdns-cn-[0-9][0-9]\\.(biz|com|net|top)$"
+    },
+    {
+      "file": "aws-cn",
+      "line": 32,
+      "type": "regexp",
+      "value": "+\\.awsdns-cn-[0-9][a-e0-9]\\.cn$"
+    },
+    {
+      "file": "category-hospital-cn",
+      "line": 5,
+      "type": "full",
+      "value": "hospital.pku.edu.cn"
+    },
+    {
+      "file": "category-hospital-cn",
+      "line": 6,
+      "type": "full",
+      "value": "ss.bjmu.edu.cn"
+    },
+    {
+      "file": "category-mooc-cn",
+      "line": 10,
+      "type": "full",
+      "value": "moocs.unipus.cn"
+    },
+    {
+      "file": "category-mooc-cn",
+      "line": 11,
+      "type": "full",
+      "value": "opencourse.pku.edu.cn"
+    },
+    {
+      "file": "category-mooc-cn",
+      "line": 12,
+      "type": "full",
+      "value": "study.163.com"
+    },
+    {
+      "file": "category-wiki-cn",
+      "line": 20,
+      "type": "full",
+      "value": "app.moegirl.org.cn"
+    },
+    {
+      "file": "category-wiki-cn",
+      "line": 21,
+      "type": "full",
+      "value": "storage.moegirl.org.cn"
+    },
+    {
+      "file": "category-ai-cn",
+      "line": 88,
+      "type": "full",
+      "value": "cueme-api.quark.cn"
+    },
+    {
+      "file": "category-ai-cn",
+      "line": 93,
+      "type": "full",
+      "value": "ai.zhaomi.cn"
+    },
+    {
+      "file": "category-ntp-cn",
+      "line": 3,
+      "type": "full",
+      "value": "ntp.aliyun.com"
+    },
+    {
+      "file": "category-ntp-cn",
+      "line": 4,
+      "type": "full",
+      "value": "ntp1.aliyun.com"
+    },
+    {
+      "file": "category-ntp-cn",
+      "line": 5,
+      "type": "full",
+      "value": "ntp2.aliyun.com"
+    },
+    {
+      "file": "category-ntp-cn",
+      "line": 6,
+      "type": "full",
+      "value": "ntp3.aliyun.com"
+    },
+    {
+      "file": "category-ntp-cn",
+      "line": 7,
+      "type": "full",
+      "value": "ntp4.aliyun.com"
+    },
+    {
+      "file": "category-ntp-cn",
+      "line": 8,
+      "type": "full",
+      "value": "ntp5.aliyun.com"
+    },
+    {
+      "file": "category-ntp-cn",
+      "line": 9,
+      "type": "full",
+      "value": "ntp6.aliyun.com"
+    },
+    {
+      "file": "category-ntp-cn",
+      "line": 10,
+      "type": "full",
+      "value": "ntp7.aliyun.com"
+    },
+    {
+      "file": "category-ntp-cn",
+      "line": 13,
+      "type": "full",
+      "value": "time.amazonaws.cn"
+    },
+    {
+      "file": "category-ntp-cn",
+      "line": 16,
+      "type": "full",
+      "value": "time.izatcloud.net"
+    },
+    {
+      "file": "category-ntp-cn",
+      "line": 17,
+      "type": "full",
+      "value": "time.xtracloud.net"
+    },
+    {
+      "file": "category-ntp-cn",
+      "line": 18,
+      "type": "full",
+      "value": "izattime.qcomgeo2.com"
+    },
+    {
+      "file": "category-ntp-cn",
+      "line": 19,
+      "type": "full",
+      "value": "xtratime.qcomgeo2.com"
+    },
+    {
+      "file": "category-ntp-cn",
+      "line": 23,
+      "type": "full",
+      "value": "ntp.tencent.com"
+    },
+    {
+      "file": "category-ntp-cn",
+      "line": 24,
+      "type": "full",
+      "value": "ntp1.tencent.com"
+    },
+    {
+      "file": "category-ntp-cn",
+      "line": 25,
+      "type": "full",
+      "value": "ntp2.tencent.com"
+    },
+    {
+      "file": "category-ntp-cn",
+      "line": 26,
+      "type": "full",
+      "value": "ntp3.tencent.com"
+    },
+    {
+      "file": "category-ntp-cn",
+      "line": 27,
+      "type": "full",
+      "value": "ntp4.tencent.com"
+    },
+    {
+      "file": "category-ntp-cn",
+      "line": 28,
+      "type": "full",
+      "value": "ntp5.tencent.com"
+    },
+    {
+      "file": "geetest",
+      "line": 3,
+      "type": "full",
+      "value": "geetest.datasink.sensorsdata.cn"
+    },
+    {
+      "file": "hanyi",
+      "line": 11,
+      "type": "full",
+      "value": "hellofontpreview.oss-cn-beijing.aliyuncs.com"
+    },
+    {
+      "file": "hanyi",
+      "line": 12,
+      "type": "full",
+      "value": "hellowebfonts.oss-cn-beijing.aliyuncs.com"
+    },
+    {
+      "file": "geolocation-cn",
+      "line": 723,
+      "type": "full",
+      "value": "api.blipsandchitz.me"
+    },
+    {
+      "file": "alibabacloud",
+      "line": 10,
+      "type": "full",
+      "value": "account-cn.alibabacloud.com"
+    },
+    {
+      "file": "alibabacloud",
+      "line": 11,
+      "type": "full",
+      "value": "api.alibabacloud.com"
+    },
+    {
+      "file": "alibabacloud",
+      "line": 12,
+      "type": "full",
+      "value": "cn.alibabacloud.com"
+    },
+    {
+      "file": "alibabacloud",
+      "line": 13,
+      "type": "full",
+      "value": "status.alibabacloud.com"
+    },
+    {
+      "file": "youku",
+      "line": 12,
+      "type": "full",
+      "value": "ykimg.alicdn.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 32,
+      "type": "full",
+      "value": "p3-novel.byteimg.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 33,
+      "type": "full",
+      "value": "p6-novel.byteimg.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 36,
+      "type": "full",
+      "value": "ads3-normal-hl.zijieapi.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 37,
+      "type": "full",
+      "value": "ads3-normal.zijieapi.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 38,
+      "type": "full",
+      "value": "ads5-normal-hl.zijieapi.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 39,
+      "type": "full",
+      "value": "ads5-normal.zijieapi.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 40,
+      "type": "full",
+      "value": "log3-applog-hl.fqnovel.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 41,
+      "type": "full",
+      "value": "log3-applog.fqnovel.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 42,
+      "type": "full",
+      "value": "log5-applog-hl.fqnovel.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 43,
+      "type": "full",
+      "value": "log5-applog.fqnovel.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 44,
+      "type": "full",
+      "value": "p3-ad-sign.byteimg.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 45,
+      "type": "full",
+      "value": "p6-ad-sign.byteimg.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 46,
+      "type": "full",
+      "value": "p9-ad-sign.byteimg.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 47,
+      "type": "full",
+      "value": "rtlog3-applog-hl.fqnovel.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 48,
+      "type": "full",
+      "value": "rtlog3-applog.fqnovel.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 49,
+      "type": "full",
+      "value": "rtlog5-applog-hl.fqnovel.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 50,
+      "type": "full",
+      "value": "rtlog5-applog.fqnovel.com"
+    },
+    {
+      "file": "juejin",
+      "line": 5,
+      "type": "full",
+      "value": "p1-juejin.byteimg.com"
+    },
+    {
+      "file": "juejin",
+      "line": 6,
+      "type": "full",
+      "value": "p2-juejin.byteimg.com"
+    },
+    {
+      "file": "juejin",
+      "line": 7,
+      "type": "full",
+      "value": "p3-juejin.byteimg.com"
+    },
+    {
+      "file": "juejin",
+      "line": 8,
+      "type": "full",
+      "value": "p4-juejin.byteimg.com"
+    },
+    {
+      "file": "juejin",
+      "line": 9,
+      "type": "full",
+      "value": "p5-juejin.byteimg.com"
+    },
+    {
+      "file": "juejin",
+      "line": 10,
+      "type": "full",
+      "value": "p6-juejin.byteimg.com"
+    },
+    {
+      "file": "juejin",
+      "line": 11,
+      "type": "full",
+      "value": "p7-juejin.byteimg.com"
+    },
+    {
+      "file": "juejin",
+      "line": 12,
+      "type": "full",
+      "value": "p8-juejin.byteimg.com"
+    },
+    {
+      "file": "juejin",
+      "line": 13,
+      "type": "full",
+      "value": "p9-juejin.byteimg.com"
+    },
+    {
+      "file": "private",
+      "line": 124,
+      "type": "regexp",
+      "value": "^[a-z]([a-z0-9-]{0,61}[a-z0-9])?$"
+    },
+    {
+      "file": "private",
+      "line": 127,
+      "type": "full",
+      "value": "instant.arubanetworks.com"
+    },
+    {
+      "file": "private",
+      "line": 128,
+      "type": "full",
+      "value": "setmeup.arubanetworks.com"
+    },
+    {
+      "file": "private",
+      "line": 132,
+      "type": "full",
+      "value": "asusrouter.com"
+    },
+    {
+      "file": "private",
+      "line": 133,
+      "type": "full",
+      "value": "router.asus.com"
+    },
+    {
+      "file": "private",
+      "line": 134,
+      "type": "full",
+      "value": "www.asusrouter.com"
+    },
+    {
+      "file": "private",
+      "line": 138,
+      "type": "full",
+      "value": "oasisauth.h3c.com"
+    },
+    {
+      "file": "private",
+      "line": 143,
+      "type": "full",
+      "value": "routerlogin.com"
+    },
+    {
+      "file": "private",
+      "line": 144,
+      "type": "full",
+      "value": "www.routerlogin.com"
+    },
+    {
+      "file": "private",
+      "line": 163,
+      "type": "full",
+      "value": "localhost.weixin.qq.com"
+    },
+    {
+      "file": "private",
+      "line": 164,
+      "type": "full",
+      "value": "localhost.work.weixin.qq.com"
+    },
+    {
+      "file": "private",
+      "line": 172,
+      "type": "full",
+      "value": "tplogin.cn"
+    },
+    {
+      "file": "private",
+      "line": 176,
+      "type": "full",
+      "value": "miwifi.com"
+    },
+    {
+      "file": "private",
+      "line": 177,
+      "type": "full",
+      "value": "www.miwifi.com"
+    },
+    {
+      "file": "private",
+      "line": 188,
+      "type": "full",
+      "value": "local.adguard.org"
+    },
+    {
+      "file": "steam",
+      "line": 89,
+      "type": "full",
+      "value": "alibaba.cdn.steampipe.steamcontent.com"
+    },
+    {
+      "file": "steam",
+      "line": 90,
+      "type": "full",
+      "value": "lv.queniujq.cn"
+    },
+    {
+      "file": "steam",
+      "line": 91,
+      "type": "full",
+      "value": "xz.pphimalayanrt.com"
+    },
+    {
+      "file": "avito",
+      "line": 6,
+      "type": "full",
+      "value": "stats.avito.ru"
+    },
+    {
+      "file": "fqnovel",
+      "line": 36,
+      "type": "full",
+      "value": "ads3-normal-hl.zijieapi.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 37,
+      "type": "full",
+      "value": "ads3-normal.zijieapi.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 38,
+      "type": "full",
+      "value": "ads5-normal-hl.zijieapi.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 39,
+      "type": "full",
+      "value": "ads5-normal.zijieapi.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 40,
+      "type": "full",
+      "value": "log3-applog-hl.fqnovel.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 41,
+      "type": "full",
+      "value": "log3-applog.fqnovel.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 42,
+      "type": "full",
+      "value": "log5-applog-hl.fqnovel.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 43,
+      "type": "full",
+      "value": "log5-applog.fqnovel.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 44,
+      "type": "full",
+      "value": "p3-ad-sign.byteimg.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 45,
+      "type": "full",
+      "value": "p6-ad-sign.byteimg.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 46,
+      "type": "full",
+      "value": "p9-ad-sign.byteimg.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 47,
+      "type": "full",
+      "value": "rtlog3-applog-hl.fqnovel.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 48,
+      "type": "full",
+      "value": "rtlog3-applog.fqnovel.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 49,
+      "type": "full",
+      "value": "rtlog5-applog-hl.fqnovel.com"
+    },
+    {
+      "file": "fqnovel",
+      "line": 50,
+      "type": "full",
+      "value": "rtlog5-applog.fqnovel.com"
+    },
+    {
+      "file": "carrotquest",
+      "line": 15,
+      "type": "full",
+      "value": "api-eu.carrotquest.app"
+    },
+    {
+      "file": "carrotquest",
+      "line": 16,
+      "type": "full",
+      "value": "api-eu.carrotquest.io"
+    },
+    {
+      "file": "carrotquest",
+      "line": 17,
+      "type": "full",
+      "value": "api-ru.carrotquest.app"
+    },
+    {
+      "file": "carrotquest",
+      "line": 18,
+      "type": "full",
+      "value": "api-ru.carrotquest.io"
+    },
+    {
+      "file": "carrotquest",
+      "line": 19,
+      "type": "full",
+      "value": "api-secure.carrotquest.app"
+    },
+    {
+      "file": "carrotquest",
+      "line": 20,
+      "type": "full",
+      "value": "api-secure.carrottrack.app"
+    },
+    {
+      "file": "carrotquest",
+      "line": 21,
+      "type": "full",
+      "value": "api.carrotquest.app"
+    },
+    {
+      "file": "carrotquest",
+      "line": 22,
+      "type": "full",
+      "value": "api.carrotquest.io"
+    },
+    {
+      "file": "carrotquest",
+      "line": 23,
+      "type": "full",
+      "value": "api.carrottrack.app"
+    },
+    {
+      "file": "carrotquest",
+      "line": 24,
+      "type": "full",
+      "value": "api.dashly.app"
+    },
+    {
+      "file": "carrotquest",
+      "line": 25,
+      "type": "full",
+      "value": "api.dashlytrack.app"
+    },
+    {
+      "file": "disney",
+      "line": 154,
+      "type": "full",
+      "value": "disney.my.sentry.io"
+    },
+    {
+      "file": "google",
+      "line": 593,
+      "type": "full",
+      "value": "analytics.google.com"
+    },
+    {
+      "file": "hetzner",
+      "line": 17,
+      "type": "full",
+      "value": "sentry.hetzner.company"
+    },
+    {
+      "file": "kontur",
+      "line": 7,
+      "type": "full",
+      "value": "metrika.kontur.ru"
+    },
+    {
+      "file": "kontur",
+      "line": 8,
+      "type": "full",
+      "value": "sentry.kontur.host"
+    },
+    {
+      "file": "acfun",
+      "line": 12,
+      "type": "full",
+      "value": "apilog-web.acfun.cn"
+    },
+    {
+      "file": "kuaishou",
+      "line": 35,
+      "type": "full",
+      "value": "log-sdk.gifshow.com"
+    },
+    {
+      "file": "kuaishou",
+      "line": 36,
+      "type": "full",
+      "value": "wlog.kuaishou.com"
+    },
+    {
+      "file": "vk",
+      "line": 18,
+      "type": "full",
+      "value": "adblogger.vk.com"
+    },
+    {
+      "file": "vk",
+      "line": 19,
+      "type": "full",
+      "value": "adblogger.vk.ru"
+    },
+    {
+      "file": "vk",
+      "line": 20,
+      "type": "full",
+      "value": "ads.vk.com"
+    },
+    {
+      "file": "vk",
+      "line": 21,
+      "type": "full",
+      "value": "ads.vk.ru"
+    },
+    {
+      "file": "vk",
+      "line": 22,
+      "type": "full",
+      "value": "adv.vk.ru"
+    },
+    {
+      "file": "vk",
+      "line": 23,
+      "type": "full",
+      "value": "advk.vk.ru"
+    },
+    {
+      "file": "vk",
+      "line": 24,
+      "type": "full",
+      "value": "analytics.vk.ru"
+    },
+    {
+      "file": "vk",
+      "line": 25,
+      "type": "full",
+      "value": "stats.vk-portal.net"
+    },
+    {
+      "file": "vk",
+      "line": 26,
+      "type": "full",
+      "value": "target.vk.com"
+    },
+    {
+      "file": "mailru-group",
+      "line": 67,
+      "type": "full",
+      "value": "1l-hit.mail.ru"
+    },
+    {
+      "file": "mailru-group",
+      "line": 68,
+      "type": "full",
+      "value": "1l-hit.vkplay.ru"
+    },
+    {
+      "file": "mailru-group",
+      "line": 69,
+      "type": "full",
+      "value": "ad4.mail.ru"
+    },
+    {
+      "file": "mailru-group",
+      "line": 70,
+      "type": "full",
+      "value": "ads-integration.rustore.ru"
+    },
+    {
+      "file": "mailru-group",
+      "line": 71,
+      "type": "full",
+      "value": "ads.dahlmessenger.com"
+    },
+    {
+      "file": "mailru-group",
+      "line": 72,
+      "type": "full",
+      "value": "ads.icq.com"
+    },
+    {
+      "file": "mailru-group",
+      "line": 73,
+      "type": "full",
+      "value": "ads.rustore.ru"
+    },
+    {
+      "file": "mailru-group",
+      "line": 74,
+      "type": "full",
+      "value": "adsapp.dahlmessenger.com"
+    },
+    {
+      "file": "mailru-group",
+      "line": 75,
+      "type": "full",
+      "value": "adsapp.telega.info"
+    },
+    {
+      "file": "mailru-group",
+      "line": 76,
+      "type": "full",
+      "value": "adsapp.stage.telega.info"
+    },
+    {
+      "file": "mailru-group",
+      "line": 77,
+      "type": "full",
+      "value": "adv.rustore.ru"
+    },
+    {
+      "file": "mailru-group",
+      "line": 78,
+      "type": "full",
+      "value": "alt-r.my.com"
+    },
+    {
+      "file": "mailru-group",
+      "line": 79,
+      "type": "full",
+      "value": "an.mail.ru"
+    },
+    {
+      "file": "mailru-group",
+      "line": 80,
+      "type": "full",
+      "value": "b2.mail.ru"
+    },
+    {
+      "file": "mailru-group",
+      "line": 81,
+      "type": "full",
+      "value": "bs.mail.ru"
+    },
+    {
+      "file": "mailru-group",
+      "line": 82,
+      "type": "full",
+      "value": "click.rustore.ru"
+    },
+    {
+      "file": "mailru-group",
+      "line": 83,
+      "type": "full",
+      "value": "pixel.rustore.ru"
+    },
+    {
+      "file": "mailru-group",
+      "line": 84,
+      "type": "full",
+      "value": "r0.mail.ru"
+    },
+    {
+      "file": "mailru-group",
+      "line": 85,
+      "type": "full",
+      "value": "r0.mradx.net"
+    },
+    {
+      "file": "mailru-group",
+      "line": 86,
+      "type": "full",
+      "value": "r1.mail.ru"
+    },
+    {
+      "file": "mailru-group",
+      "line": 87,
+      "type": "full",
+      "value": "reklama.mail.ru"
+    },
+    {
+      "file": "mailru-group",
+      "line": 88,
+      "type": "full",
+      "value": "rs.mail.ru"
+    },
+    {
+      "file": "mailru-group",
+      "line": 89,
+      "type": "full",
+      "value": "sentry-ng.g.smailru.net"
+    },
+    {
+      "file": "mailru-group",
+      "line": 90,
+      "type": "full",
+      "value": "srch-telemeter10.g.smailru.net"
+    },
+    {
+      "file": "mailru-group",
+      "line": 91,
+      "type": "full",
+      "value": "sentry.dev-my.com"
+    },
+    {
+      "file": "mailru-group",
+      "line": 92,
+      "type": "full",
+      "value": "sentry.dev-my.games"
+    },
+    {
+      "file": "mailru-group",
+      "line": 93,
+      "type": "full",
+      "value": "sentry.rustore.ru"
+    },
+    {
+      "file": "mailru-group",
+      "line": 94,
+      "type": "full",
+      "value": "sentry.viqeo.tv"
+    },
+    {
+      "file": "mailru-group",
+      "line": 95,
+      "type": "full",
+      "value": "stacks.vk-portal.net"
+    },
+    {
+      "file": "mailru-group",
+      "line": 96,
+      "type": "full",
+      "value": "stats.dahlmessenger.com"
+    },
+    {
+      "file": "mailru-group",
+      "line": 97,
+      "type": "full",
+      "value": "stats.dev.telega.info"
+    },
+    {
+      "file": "mailru-group",
+      "line": 98,
+      "type": "full",
+      "value": "stats.rustore.ru"
+    },
+    {
+      "file": "mailru-group",
+      "line": 99,
+      "type": "full",
+      "value": "stats.telega.info"
+    },
+    {
+      "file": "mailru-group",
+      "line": 100,
+      "type": "full",
+      "value": "t.mail.ru"
+    },
+    {
+      "file": "mailru-group",
+      "line": 101,
+      "type": "full",
+      "value": "top-staging.mail.ru"
+    },
+    {
+      "file": "mailru-group",
+      "line": 102,
+      "type": "full",
+      "value": "whiteline.mail.ru"
+    },
+    {
+      "file": "mailru-group",
+      "line": 103,
+      "type": "full",
+      "value": "xray.mail.ru"
+    },
+    {
+      "file": "mindbox",
+      "line": 18,
+      "type": "full",
+      "value": "api-js.mindbox.ru"
+    },
+    {
+      "file": "mindbox",
+      "line": 19,
+      "type": "full",
+      "value": "api-ru.mindbox.cloud"
+    },
+    {
+      "file": "mindbox",
+      "line": 20,
+      "type": "full",
+      "value": "api-staging.mindbox.ru"
+    },
+    {
+      "file": "mindbox",
+      "line": 21,
+      "type": "full",
+      "value": "api.mindbox.cloud"
+    },
+    {
+      "file": "mindbox",
+      "line": 22,
+      "type": "full",
+      "value": "api.mindbox.ru"
+    },
+    {
+      "file": "mindbox",
+      "line": 23,
+      "type": "full",
+      "value": "sentry.mindbox.ru"
+    },
+    {
+      "file": "mindbox",
+      "line": 24,
+      "type": "full",
+      "value": "sentry.popmechanic.ru"
+    },
+    {
+      "file": "mozilla",
+      "line": 65,
+      "type": "full",
+      "value": "ads-img.mozilla.org"
+    },
+    {
+      "file": "mozilla",
+      "line": 66,
+      "type": "full",
+      "value": "ads.mozilla.org"
+    },
+    {
+      "file": "ookla-speedtest",
+      "line": 26,
+      "type": "regexp",
+      "value": "^speed\\.(coe|open)\\.ad\\.[a-z]{2,6}\\.prod\\.hosts\\.ooklaserver\\.net$"
+    },
+    {
+      "file": "openai",
+      "line": 24,
+      "type": "full",
+      "value": "browser-intake-datadoghq.com"
+    },
+    {
+      "file": "openai",
+      "line": 25,
+      "type": "full",
+      "value": "o33249.ingest.sentry.io"
+    },
+    {
+      "file": "openai",
+      "line": 26,
+      "type": "full",
+      "value": "o33249.ingest.us.sentry.io"
+    },
+    {
+      "file": "openai",
+      "line": 27,
+      "type": "full",
+      "value": "openai.qualtrics.com"
+    },
+    {
+      "file": "ozon",
+      "line": 50,
+      "type": "full",
+      "value": "ad.ozone.ru"
+    },
+    {
+      "file": "ozon",
+      "line": 51,
+      "type": "full",
+      "value": "adv.ozon.ru"
+    },
+    {
+      "file": "ozon",
+      "line": 52,
+      "type": "full",
+      "value": "agency-adv.ozon.ru"
+    },
+    {
+      "file": "ozon",
+      "line": 53,
+      "type": "full",
+      "value": "analytics-adv.ozon.ru"
+    },
+    {
+      "file": "ozon",
+      "line": 54,
+      "type": "full",
+      "value": "beginners-adv.ozon.ru"
+    },
+    {
+      "file": "ozon",
+      "line": 55,
+      "type": "full",
+      "value": "google-analytics-suite.ozon.ru"
+    },
+    {
+      "file": "ozon",
+      "line": 56,
+      "type": "full",
+      "value": "loyalnost-adv.ozon.ru"
+    },
+    {
+      "file": "ozon",
+      "line": 57,
+      "type": "full",
+      "value": "new-adv.ozon.ru"
+    },
+    {
+      "file": "ozon",
+      "line": 58,
+      "type": "full",
+      "value": "prodvizhenie-adv.ozon.ru"
+    },
+    {
+      "file": "ozon",
+      "line": 59,
+      "type": "full",
+      "value": "questions-adv.ozon.ru"
+    },
+    {
+      "file": "ozon",
+      "line": 60,
+      "type": "full",
+      "value": "sentry.ozon.ru"
+    },
+    {
+      "file": "ozon",
+      "line": 61,
+      "type": "full",
+      "value": "xapi.ozon.by"
+    },
+    {
+      "file": "ozon",
+      "line": 62,
+      "type": "full",
+      "value": "xapi.ozon.com"
+    },
+    {
+      "file": "ozon",
+      "line": 63,
+      "type": "full",
+      "value": "xapi.ozon.com.by"
+    },
+    {
+      "file": "ozon",
+      "line": 64,
+      "type": "full",
+      "value": "xapi.ozon.com.kz"
+    },
+    {
+      "file": "ozon",
+      "line": 65,
+      "type": "full",
+      "value": "xapi.ozon.kz"
+    },
+    {
+      "file": "ozon",
+      "line": 66,
+      "type": "full",
+      "value": "xapi.ozon.ru"
+    },
+    {
+      "file": "ozon",
+      "line": 67,
+      "type": "full",
+      "value": "xapi.ozonru.me"
+    },
+    {
+      "file": "picacg",
+      "line": 16,
+      "type": "full",
+      "value": "ad-channel.diwodiwo.xyz"
+    },
+    {
+      "file": "picacg",
+      "line": 17,
+      "type": "full",
+      "value": "ad-display.diwodiwo.xyz"
+    },
+    {
+      "file": "pikpak",
+      "line": 9,
+      "type": "full",
+      "value": "o4504926511693824.ingest.sentry.io"
+    },
+    {
+      "file": "rostelecom",
+      "line": 8,
+      "type": "full",
+      "value": "sentry.iptv.rt.ru"
+    },
+    {
+      "file": "sberbank",
+      "line": 23,
+      "type": "full",
+      "value": "visor.sberbank.ru"
+    },
+    {
+      "file": "sber",
+      "line": 8,
+      "type": "full",
+      "value": "error-tracking.megamarket.tech"
+    },
+    {
+      "file": "sber",
+      "line": 9,
+      "type": "full",
+      "value": "metrics.21-school.ru"
+    },
+    {
+      "file": "sber",
+      "line": 10,
+      "type": "full",
+      "value": "sentry.sberauto.com"
+    },
+    {
+      "file": "sber",
+      "line": 11,
+      "type": "full",
+      "value": "tracing-http.megamarket.tech"
+    },
+    {
+      "file": "spotify",
+      "line": 29,
+      "type": "full",
+      "value": "adeventtracker.spotify.com"
+    },
+    {
+      "file": "spotify",
+      "line": 30,
+      "type": "full",
+      "value": "adstudio-assets.scdn.co"
+    },
+    {
+      "file": "spotify",
+      "line": 31,
+      "type": "full",
+      "value": "bloodhound.spotify.com"
+    },
+    {
+      "file": "wildberries",
+      "line": 106,
+      "type": "full",
+      "value": "ads-gate.wildberries.ru"
+    },
+    {
+      "file": "wildberries",
+      "line": 107,
+      "type": "full",
+      "value": "ads-media.wildberries.ru"
+    },
+    {
+      "file": "wildberries",
+      "line": 108,
+      "type": "full",
+      "value": "ads.wildberries.ru"
+    },
+    {
+      "file": "wildberries",
+      "line": 109,
+      "type": "full",
+      "value": "advert-api.wb.ru"
+    },
+    {
+      "file": "wildberries",
+      "line": 110,
+      "type": "full",
+      "value": "advert-api-sandbox.wb.ru"
+    },
+    {
+      "file": "wildberries",
+      "line": 111,
+      "type": "full",
+      "value": "advert-media-api.wb.ru"
+    },
+    {
+      "file": "wildberries",
+      "line": 112,
+      "type": "full",
+      "value": "advert-api.wildberries.ru"
+    },
+    {
+      "file": "wildberries",
+      "line": 113,
+      "type": "full",
+      "value": "advert-api-sandbox.wildberries.ru"
+    },
+    {
+      "file": "wildberries",
+      "line": 114,
+      "type": "full",
+      "value": "advert-media-api.wildberries.ru"
+    },
+    {
+      "file": "wildberries",
+      "line": 115,
+      "type": "full",
+      "value": "analytics-stage.wildberries.ru"
+    },
+    {
+      "file": "wildberries",
+      "line": 116,
+      "type": "full",
+      "value": "analytics.wildberries.ru"
+    },
+    {
+      "file": "wildberries",
+      "line": 117,
+      "type": "full",
+      "value": "marketing-info.wildberries.ru"
+    },
+    {
+      "file": "wildberries",
+      "line": 118,
+      "type": "full",
+      "value": "marketplace-sentry.wb.ru"
+    },
+    {
+      "file": "wildberries",
+      "line": 119,
+      "type": "full",
+      "value": "sentry.wb.ru"
+    },
+    {
+      "file": "wildberries",
+      "line": 120,
+      "type": "full",
+      "value": "web-analytics.wildberries.ru"
+    },
+    {
+      "file": "x5",
+      "line": 35,
+      "type": "full",
+      "value": "ads.x5.ru"
+    },
+    {
+      "file": "x5",
+      "line": 36,
+      "type": "full",
+      "value": "ads.x5media.ru"
+    },
+    {
+      "file": "x5",
+      "line": 37,
+      "type": "full",
+      "value": "sentry.x5.ru"
+    },
+    {
+      "file": "yandex",
+      "line": 147,
+      "type": "full",
+      "value": "adfstat.yandex.ru"
+    },
+    {
+      "file": "yandex",
+      "line": 148,
+      "type": "full",
+      "value": "ads.yandex.com"
+    },
+    {
+      "file": "yandex",
+      "line": 149,
+      "type": "full",
+      "value": "ads.yango.com"
+    },
+    {
+      "file": "yandex",
+      "line": 150,
+      "type": "full",
+      "value": "adsdk.yandex.ru"
+    },
+    {
+      "file": "yandex",
+      "line": 151,
+      "type": "full",
+      "value": "amc.yandex.ru"
+    },
+    {
+      "file": "yandex",
+      "line": 152,
+      "type": "full",
+      "value": "analytics.mobile.yandex.net"
+    },
+    {
+      "file": "yandex",
+      "line": 153,
+      "type": "full",
+      "value": "clck.yandex.com"
+    },
+    {
+      "file": "yandex",
+      "line": 154,
+      "type": "full",
+      "value": "clck.yandex.net"
+    },
+    {
+      "file": "yandex",
+      "line": 155,
+      "type": "full",
+      "value": "clck.yango.com"
+    },
+    {
+      "file": "yandex",
+      "line": 156,
+      "type": "full",
+      "value": "informer.yandex.ru"
+    },
+    {
+      "file": "yandex",
+      "line": 157,
+      "type": "full",
+      "value": "log.strm.yandex.ru"
+    },
+    {
+      "file": "yandex",
+      "line": 158,
+      "type": "full",
+      "value": "mc.yandex.com"
+    },
+    {
+      "file": "yandex",
+      "line": 159,
+      "type": "full",
+      "value": "mc.yandex.net"
+    },
+    {
+      "file": "yandex",
+      "line": 160,
+      "type": "full",
+      "value": "mc.yango.com"
+    },
+    {
+      "file": "yandex",
+      "line": 161,
+      "type": "full",
+      "value": "pixel.yandex.com"
+    },
+    {
+      "file": "yandex",
+      "line": 162,
+      "type": "full",
+      "value": "report.ap.yandex-net.ru"
+    },
+    {
+      "file": "category-ads",
+      "line": 177,
+      "type": "full",
+      "value": "logs.ads.vungle.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 2,
+      "type": "full",
+      "value": "iphone-stun.strato-iphone.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 3,
+      "type": "full",
+      "value": "numb.viagenie.ca"
+    },
+    {
+      "file": "category-stun",
+      "line": 4,
+      "type": "full",
+      "value": "relay.webwormhole.io"
+    },
+    {
+      "file": "category-stun",
+      "line": 5,
+      "type": "full",
+      "value": "s1.taraba.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 6,
+      "type": "full",
+      "value": "s1.voipstation.jp"
+    },
+    {
+      "file": "category-stun",
+      "line": 7,
+      "type": "full",
+      "value": "s2.taraba.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 8,
+      "type": "full",
+      "value": "s2.voipstation.jp"
+    },
+    {
+      "file": "category-stun",
+      "line": 9,
+      "type": "full",
+      "value": "staticauth.openrelay.metered.ca"
+    },
+    {
+      "file": "category-stun",
+      "line": 10,
+      "type": "full",
+      "value": "stun.12connect.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 11,
+      "type": "full",
+      "value": "stun.12voip.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 12,
+      "type": "full",
+      "value": "stun.1cbit.ru"
+    },
+    {
+      "file": "category-stun",
+      "line": 13,
+      "type": "full",
+      "value": "stun.1und1.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 14,
+      "type": "full",
+      "value": "stun.2talk.co.nz"
+    },
+    {
+      "file": "category-stun",
+      "line": 15,
+      "type": "full",
+      "value": "stun.2talk.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 16,
+      "type": "full",
+      "value": "stun.3clogic.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 17,
+      "type": "full",
+      "value": "stun.3cx.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 18,
+      "type": "full",
+      "value": "stun.3deluxe.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 19,
+      "type": "full",
+      "value": "stun.3wayint.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 20,
+      "type": "full",
+      "value": "stun.a-mm.tv"
+    },
+    {
+      "file": "category-stun",
+      "line": 21,
+      "type": "full",
+      "value": "stun.aa.net.uk"
+    },
+    {
+      "file": "category-stun",
+      "line": 22,
+      "type": "full",
+      "value": "stun.acrobits.cz"
+    },
+    {
+      "file": "category-stun",
+      "line": 23,
+      "type": "full",
+      "value": "stun.acronis.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 24,
+      "type": "full",
+      "value": "stun.actionvoip.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 25,
+      "type": "full",
+      "value": "stun.advfn.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 26,
+      "type": "full",
+      "value": "stun.aeta-audio.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 27,
+      "type": "full",
+      "value": "stun.aeta.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 28,
+      "type": "full",
+      "value": "stun.allflac.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 29,
+      "type": "full",
+      "value": "stun.alltel.com.au"
+    },
+    {
+      "file": "category-stun",
+      "line": 30,
+      "type": "full",
+      "value": "stun.alpirsbacher.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 31,
+      "type": "full",
+      "value": "stun.altar.com.pl"
+    },
+    {
+      "file": "category-stun",
+      "line": 32,
+      "type": "full",
+      "value": "stun.annatel.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 33,
+      "type": "full",
+      "value": "stun.antisip.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 34,
+      "type": "full",
+      "value": "stun.arbuz.ru"
+    },
+    {
+      "file": "category-stun",
+      "line": 35,
+      "type": "full",
+      "value": "stun.atagverwarming.nl"
+    },
+    {
+      "file": "category-stun",
+      "line": 36,
+      "type": "full",
+      "value": "stun.avigora.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 37,
+      "type": "full",
+      "value": "stun.avigora.fr"
+    },
+    {
+      "file": "category-stun",
+      "line": 38,
+      "type": "full",
+      "value": "stun.awa-shima.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 39,
+      "type": "full",
+      "value": "stun.awt.be"
+    },
+    {
+      "file": "category-stun",
+      "line": 40,
+      "type": "full",
+      "value": "stun.axialys.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 41,
+      "type": "full",
+      "value": "stun.b2b2c.ca"
+    },
+    {
+      "file": "category-stun",
+      "line": 42,
+      "type": "full",
+      "value": "stun.bahnhof.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 43,
+      "type": "full",
+      "value": "stun.baltmannsweiler.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 44,
+      "type": "full",
+      "value": "stun.barracuda.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 45,
+      "type": "full",
+      "value": "stun.bcs2005.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 46,
+      "type": "full",
+      "value": "stun.bethesda.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 47,
+      "type": "full",
+      "value": "stun.bitburger.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 48,
+      "type": "full",
+      "value": "stun.bluesip.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 49,
+      "type": "full",
+      "value": "stun.bmwgs.cz"
+    },
+    {
+      "file": "category-stun",
+      "line": 50,
+      "type": "full",
+      "value": "stun.botonakis.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 51,
+      "type": "full",
+      "value": "stun.bridesbay.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 52,
+      "type": "full",
+      "value": "stun.budgetphone.nl"
+    },
+    {
+      "file": "category-stun",
+      "line": 53,
+      "type": "full",
+      "value": "stun.budgetsip.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 54,
+      "type": "full",
+      "value": "stun.business-isp.nl"
+    },
+    {
+      "file": "category-stun",
+      "line": 55,
+      "type": "full",
+      "value": "stun.cablenet-as.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 56,
+      "type": "full",
+      "value": "stun.callromania.ro"
+    },
+    {
+      "file": "category-stun",
+      "line": 57,
+      "type": "full",
+      "value": "stun.callwithus.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 58,
+      "type": "full",
+      "value": "stun.cbsys.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 59,
+      "type": "full",
+      "value": "stun.cellmail.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 60,
+      "type": "full",
+      "value": "stun.chathelp.ru"
+    },
+    {
+      "file": "category-stun",
+      "line": 61,
+      "type": "full",
+      "value": "stun.cheapvoip.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 62,
+      "type": "full",
+      "value": "stun.ciktel.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 63,
+      "type": "full",
+      "value": "stun.cloopen.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 64,
+      "type": "full",
+      "value": "stun.colouredlines.com.au"
+    },
+    {
+      "file": "category-stun",
+      "line": 65,
+      "type": "full",
+      "value": "stun.comfi.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 66,
+      "type": "full",
+      "value": "stun.commpeak.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 67,
+      "type": "full",
+      "value": "stun.comtube.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 68,
+      "type": "full",
+      "value": "stun.comtube.ru"
+    },
+    {
+      "file": "category-stun",
+      "line": 69,
+      "type": "full",
+      "value": "stun.cope.es"
+    },
+    {
+      "file": "category-stun",
+      "line": 70,
+      "type": "full",
+      "value": "stun.counterpath.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 71,
+      "type": "full",
+      "value": "stun.counterpath.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 72,
+      "type": "full",
+      "value": "stun.cryptonit.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 73,
+      "type": "full",
+      "value": "stun.darioflaccovio.it"
+    },
+    {
+      "file": "category-stun",
+      "line": 74,
+      "type": "full",
+      "value": "stun.datamanagement.it"
+    },
+    {
+      "file": "category-stun",
+      "line": 75,
+      "type": "full",
+      "value": "stun.dcalling.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 76,
+      "type": "full",
+      "value": "stun.decanet.fr"
+    },
+    {
+      "file": "category-stun",
+      "line": 77,
+      "type": "full",
+      "value": "stun.demos.ru"
+    },
+    {
+      "file": "category-stun",
+      "line": 78,
+      "type": "full",
+      "value": "stun.develz.org"
+    },
+    {
+      "file": "category-stun",
+      "line": 79,
+      "type": "full",
+      "value": "stun.diallog.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 80,
+      "type": "full",
+      "value": "stun.dingaling.ca"
+    },
+    {
+      "file": "category-stun",
+      "line": 81,
+      "type": "full",
+      "value": "stun.doublerobotics.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 82,
+      "type": "full",
+      "value": "stun.drogon.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 83,
+      "type": "full",
+      "value": "stun.duocom.es"
+    },
+    {
+      "file": "category-stun",
+      "line": 84,
+      "type": "full",
+      "value": "stun.dus.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 85,
+      "type": "full",
+      "value": "stun.e-fon.ch"
+    },
+    {
+      "file": "category-stun",
+      "line": 86,
+      "type": "full",
+      "value": "stun.easybell.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 87,
+      "type": "full",
+      "value": "stun.easycall.pl"
+    },
+    {
+      "file": "category-stun",
+      "line": 88,
+      "type": "full",
+      "value": "stun.easyvoip.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 89,
+      "type": "full",
+      "value": "stun.efficace-factory.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 90,
+      "type": "full",
+      "value": "stun.einsundeins.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 91,
+      "type": "full",
+      "value": "stun.einsundeins.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 92,
+      "type": "full",
+      "value": "stun.ekiga.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 93,
+      "type": "full",
+      "value": "stun.engineeredarts.co.uk"
+    },
+    {
+      "file": "category-stun",
+      "line": 94,
+      "type": "full",
+      "value": "stun.eol.co.nz"
+    },
+    {
+      "file": "category-stun",
+      "line": 95,
+      "type": "full",
+      "value": "stun.epygi.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 96,
+      "type": "full",
+      "value": "stun.etoilediese.fr"
+    },
+    {
+      "file": "category-stun",
+      "line": 97,
+      "type": "full",
+      "value": "stun.eyeball.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 98,
+      "type": "full",
+      "value": "stun.f.haeder.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 99,
+      "type": "full",
+      "value": "stun.faktortel.com.au"
+    },
+    {
+      "file": "category-stun",
+      "line": 100,
+      "type": "full",
+      "value": "stun.files.fm"
+    },
+    {
+      "file": "category-stun",
+      "line": 101,
+      "type": "full",
+      "value": "stun.finsterwalder.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 102,
+      "type": "full",
+      "value": "stun.fitauto.ru"
+    },
+    {
+      "file": "category-stun",
+      "line": 103,
+      "type": "full",
+      "value": "stun.flashdance.cx"
+    },
+    {
+      "file": "category-stun",
+      "line": 104,
+      "type": "full",
+      "value": "stun.fmo.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 105,
+      "type": "full",
+      "value": "stun.framasoft.org"
+    },
+    {
+      "file": "category-stun",
+      "line": 106,
+      "type": "full",
+      "value": "stun.freecall.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 107,
+      "type": "full",
+      "value": "stun.freeswitch.org"
+    },
+    {
+      "file": "category-stun",
+      "line": 108,
+      "type": "full",
+      "value": "stun.freevoipdeal.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 109,
+      "type": "full",
+      "value": "stun.frozenmountain.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 110,
+      "type": "full",
+      "value": "stun.fuzemeeting.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 111,
+      "type": "full",
+      "value": "stun.fwdnet.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 112,
+      "type": "full",
+      "value": "stun.galeriemagnet.at"
+    },
+    {
+      "file": "category-stun",
+      "line": 113,
+      "type": "full",
+      "value": "stun.geesthacht.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 114,
+      "type": "full",
+      "value": "stun.genymotion.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 115,
+      "type": "full",
+      "value": "stun.gmx.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 116,
+      "type": "full",
+      "value": "stun.gmx.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 117,
+      "type": "full",
+      "value": "stun.godatenow.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 118,
+      "type": "full",
+      "value": "stun.gradwell.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 119,
+      "type": "full",
+      "value": "stun.graftlab.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 120,
+      "type": "full",
+      "value": "stun.grazertrinkwasseringefahr.at"
+    },
+    {
+      "file": "category-stun",
+      "line": 121,
+      "type": "full",
+      "value": "stun.halonet.pl"
+    },
+    {
+      "file": "category-stun",
+      "line": 122,
+      "type": "full",
+      "value": "stun.healthtap.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 123,
+      "type": "full",
+      "value": "stun.heeds.eu"
+    },
+    {
+      "file": "category-stun",
+      "line": 124,
+      "type": "full",
+      "value": "stun.hellonanu.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 125,
+      "type": "full",
+      "value": "stun.hoiio.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 126,
+      "type": "full",
+      "value": "stun.hosteurope.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 127,
+      "type": "full",
+      "value": "stun.hot-chilli.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 128,
+      "type": "full",
+      "value": "stun.ideasip.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 129,
+      "type": "full",
+      "value": "stun.imesh.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 130,
+      "type": "full",
+      "value": "stun.imp.ch"
+    },
+    {
+      "file": "category-stun",
+      "line": 131,
+      "type": "full",
+      "value": "stun.infra.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 132,
+      "type": "full",
+      "value": "stun.internetcalls.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 133,
+      "type": "full",
+      "value": "stun.intervoip.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 134,
+      "type": "full",
+      "value": "stun.ipcomms.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 135,
+      "type": "full",
+      "value": "stun.ipfire.org"
+    },
+    {
+      "file": "category-stun",
+      "line": 136,
+      "type": "full",
+      "value": "stun.ippi.fr"
+    },
+    {
+      "file": "category-stun",
+      "line": 137,
+      "type": "full",
+      "value": "stun.ipshka.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 138,
+      "type": "full",
+      "value": "stun.iptel.org"
+    },
+    {
+      "file": "category-stun",
+      "line": 139,
+      "type": "full",
+      "value": "stun.irian.at"
+    },
+    {
+      "file": "category-stun",
+      "line": 140,
+      "type": "full",
+      "value": "stun.it1.hr"
+    },
+    {
+      "file": "category-stun",
+      "line": 141,
+      "type": "full",
+      "value": "stun.ivao.aero"
+    },
+    {
+      "file": "category-stun",
+      "line": 142,
+      "type": "full",
+      "value": "stun.jappix.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 143,
+      "type": "full",
+      "value": "stun.jumblo.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 144,
+      "type": "full",
+      "value": "stun.justvoip.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 145,
+      "type": "full",
+      "value": "stun.kanet.ru"
+    },
+    {
+      "file": "category-stun",
+      "line": 146,
+      "type": "full",
+      "value": "stun.kanojo.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 147,
+      "type": "full",
+      "value": "stun.kaseya.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 148,
+      "type": "full",
+      "value": "stun.kiwilink.co.nz"
+    },
+    {
+      "file": "category-stun",
+      "line": 149,
+      "type": "full",
+      "value": "stun.kundenserver.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 150,
+      "type": "full",
+      "value": "stun.l.google.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 151,
+      "type": "full",
+      "value": "stun.lebendigefluesse.at"
+    },
+    {
+      "file": "category-stun",
+      "line": 152,
+      "type": "full",
+      "value": "stun.linea7.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 153,
+      "type": "full",
+      "value": "stun.linphone.org"
+    },
+    {
+      "file": "category-stun",
+      "line": 154,
+      "type": "full",
+      "value": "stun.linuxtrent.it"
+    },
+    {
+      "file": "category-stun",
+      "line": 155,
+      "type": "full",
+      "value": "stun.liveo.fr"
+    },
+    {
+      "file": "category-stun",
+      "line": 156,
+      "type": "full",
+      "value": "stun.lleida.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 157,
+      "type": "full",
+      "value": "stun.lovense.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 158,
+      "type": "full",
+      "value": "stun.lowratevoip.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 159,
+      "type": "full",
+      "value": "stun.lugosoft.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 160,
+      "type": "full",
+      "value": "stun.lundimatin.fr"
+    },
+    {
+      "file": "category-stun",
+      "line": 161,
+      "type": "full",
+      "value": "stun.m-online.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 162,
+      "type": "full",
+      "value": "stun.magnet.ie"
+    },
+    {
+      "file": "category-stun",
+      "line": 163,
+      "type": "full",
+      "value": "stun.manle.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 164,
+      "type": "full",
+      "value": "stun.meetwife.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 165,
+      "type": "full",
+      "value": "stun.mgn.ru"
+    },
+    {
+      "file": "category-stun",
+      "line": 166,
+      "type": "full",
+      "value": "stun.mit.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 167,
+      "type": "full",
+      "value": "stun.mitake.com.tw"
+    },
+    {
+      "file": "category-stun",
+      "line": 168,
+      "type": "full",
+      "value": "stun.miwifi.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 169,
+      "type": "full",
+      "value": "stun.mixvoip.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 170,
+      "type": "full",
+      "value": "stun.modulus.gr"
+    },
+    {
+      "file": "category-stun",
+      "line": 171,
+      "type": "full",
+      "value": "stun.moonlight-stream.org"
+    },
+    {
+      "file": "category-stun",
+      "line": 172,
+      "type": "full",
+      "value": "stun.mozcom.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 173,
+      "type": "full",
+      "value": "stun.myspeciality.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 174,
+      "type": "full",
+      "value": "stun.myvoiptraffic.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 175,
+      "type": "full",
+      "value": "stun.mywatson.it"
+    },
+    {
+      "file": "category-stun",
+      "line": 176,
+      "type": "full",
+      "value": "stun.nanocosmos.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 177,
+      "type": "full",
+      "value": "stun.nas.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 178,
+      "type": "full",
+      "value": "stun.ncic.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 179,
+      "type": "full",
+      "value": "stun.neotel.co.za"
+    },
+    {
+      "file": "category-stun",
+      "line": 180,
+      "type": "full",
+      "value": "stun.netappel.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 181,
+      "type": "full",
+      "value": "stun.netappel.fr"
+    },
+    {
+      "file": "category-stun",
+      "line": 182,
+      "type": "full",
+      "value": "stun.netgsm.com.tr"
+    },
+    {
+      "file": "category-stun",
+      "line": 183,
+      "type": "full",
+      "value": "stun.nextcloud.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 184,
+      "type": "full",
+      "value": "stun.nfon.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 185,
+      "type": "full",
+      "value": "stun.noblogs.org"
+    },
+    {
+      "file": "category-stun",
+      "line": 186,
+      "type": "full",
+      "value": "stun.noc.ams-ix.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 187,
+      "type": "full",
+      "value": "stun.node4.co.uk"
+    },
+    {
+      "file": "category-stun",
+      "line": 188,
+      "type": "full",
+      "value": "stun.nonoh.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 189,
+      "type": "full",
+      "value": "stun.nottingham.ac.uk"
+    },
+    {
+      "file": "category-stun",
+      "line": 190,
+      "type": "full",
+      "value": "stun.nova.is"
+    },
+    {
+      "file": "category-stun",
+      "line": 191,
+      "type": "full",
+      "value": "stun.nventure.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 192,
+      "type": "full",
+      "value": "stun.on.net.mk"
+    },
+    {
+      "file": "category-stun",
+      "line": 193,
+      "type": "full",
+      "value": "stun.oncloud7.ch"
+    },
+    {
+      "file": "category-stun",
+      "line": 194,
+      "type": "full",
+      "value": "stun.ooma.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 195,
+      "type": "full",
+      "value": "stun.ooonet.ru"
+    },
+    {
+      "file": "category-stun",
+      "line": 196,
+      "type": "full",
+      "value": "stun.oriontelekom.rs"
+    },
+    {
+      "file": "category-stun",
+      "line": 197,
+      "type": "full",
+      "value": "stun.outland-net.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 198,
+      "type": "full",
+      "value": "stun.ozekiphone.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 199,
+      "type": "full",
+      "value": "stun.patlive.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 200,
+      "type": "full",
+      "value": "stun.peethultra.be"
+    },
+    {
+      "file": "category-stun",
+      "line": 201,
+      "type": "full",
+      "value": "stun.personal-voip.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 202,
+      "type": "full",
+      "value": "stun.petcube.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 203,
+      "type": "full",
+      "value": "stun.phone.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 204,
+      "type": "full",
+      "value": "stun.phoneserve.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 205,
+      "type": "full",
+      "value": "stun.pjsip.org"
+    },
+    {
+      "file": "category-stun",
+      "line": 206,
+      "type": "full",
+      "value": "stun.poetamatusel.org"
+    },
+    {
+      "file": "category-stun",
+      "line": 207,
+      "type": "full",
+      "value": "stun.poivy.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 208,
+      "type": "full",
+      "value": "stun.powerpbx.org"
+    },
+    {
+      "file": "category-stun",
+      "line": 209,
+      "type": "full",
+      "value": "stun.powervoip.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 210,
+      "type": "full",
+      "value": "stun.ppdi.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 211,
+      "type": "full",
+      "value": "stun.prizee.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 212,
+      "type": "full",
+      "value": "stun.pure-ip.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 213,
+      "type": "full",
+      "value": "stun.qq.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 214,
+      "type": "full",
+      "value": "stun.qvod.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 215,
+      "type": "full",
+      "value": "stun.rackco.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 216,
+      "type": "full",
+      "value": "stun.radiojar.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 217,
+      "type": "full",
+      "value": "stun.rapidnet.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 218,
+      "type": "full",
+      "value": "stun.rb-net.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 219,
+      "type": "full",
+      "value": "stun.refint.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 220,
+      "type": "full",
+      "value": "stun.remote-learner.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 221,
+      "type": "full",
+      "value": "stun.ringostat.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 222,
+      "type": "full",
+      "value": "stun.rixtelecom.se"
+    },
+    {
+      "file": "category-stun",
+      "line": 223,
+      "type": "full",
+      "value": "stun.rockenstein.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 224,
+      "type": "full",
+      "value": "stun.rolmail.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 225,
+      "type": "full",
+      "value": "stun.romaaeterna.nl"
+    },
+    {
+      "file": "category-stun",
+      "line": 226,
+      "type": "full",
+      "value": "stun.romancecompass.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 227,
+      "type": "full",
+      "value": "stun.root-1.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 228,
+      "type": "full",
+      "value": "stun.rounds.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 229,
+      "type": "full",
+      "value": "stun.ru-brides.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 230,
+      "type": "full",
+      "value": "stun.rynga.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 231,
+      "type": "full",
+      "value": "stun.schlund.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 232,
+      "type": "full",
+      "value": "stun.schulinformatik.at"
+    },
+    {
+      "file": "category-stun",
+      "line": 233,
+      "type": "full",
+      "value": "stun.services.mozilla.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 234,
+      "type": "full",
+      "value": "stun.sigmavoip.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 235,
+      "type": "full",
+      "value": "stun.signalwire.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 236,
+      "type": "full",
+      "value": "stun.sip.us"
+    },
+    {
+      "file": "category-stun",
+      "line": 237,
+      "type": "full",
+      "value": "stun.sipdiscount.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 238,
+      "type": "full",
+      "value": "stun.siplogin.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 239,
+      "type": "full",
+      "value": "stun.sipnet.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 240,
+      "type": "full",
+      "value": "stun.sipnet.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 241,
+      "type": "full",
+      "value": "stun.sipnet.ru"
+    },
+    {
+      "file": "category-stun",
+      "line": 242,
+      "type": "full",
+      "value": "stun.siportal.it"
+    },
+    {
+      "file": "category-stun",
+      "line": 243,
+      "type": "full",
+      "value": "stun.sippeer.dk"
+    },
+    {
+      "file": "category-stun",
+      "line": 244,
+      "type": "full",
+      "value": "stun.sipthor.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 245,
+      "type": "full",
+      "value": "stun.siptraffic.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 246,
+      "type": "full",
+      "value": "stun.siptrunk.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 247,
+      "type": "full",
+      "value": "stun.skydrone.aero"
+    },
+    {
+      "file": "category-stun",
+      "line": 248,
+      "type": "full",
+      "value": "stun.skylink.ru"
+    },
+    {
+      "file": "category-stun",
+      "line": 249,
+      "type": "full",
+      "value": "stun.sma.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 250,
+      "type": "full",
+      "value": "stun.smartvoip.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 251,
+      "type": "full",
+      "value": "stun.smsdiscount.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 252,
+      "type": "full",
+      "value": "stun.snafu.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 253,
+      "type": "full",
+      "value": "stun.softjoys.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 254,
+      "type": "full",
+      "value": "stun.solcon.nl"
+    },
+    {
+      "file": "category-stun",
+      "line": 255,
+      "type": "full",
+      "value": "stun.solnet.ch"
+    },
+    {
+      "file": "category-stun",
+      "line": 256,
+      "type": "full",
+      "value": "stun.sonetel.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 257,
+      "type": "full",
+      "value": "stun.sonetel.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 258,
+      "type": "full",
+      "value": "stun.sovtest.ru"
+    },
+    {
+      "file": "category-stun",
+      "line": 259,
+      "type": "full",
+      "value": "stun.speedy.com.ar"
+    },
+    {
+      "file": "category-stun",
+      "line": 260,
+      "type": "full",
+      "value": "stun.spokn.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 261,
+      "type": "full",
+      "value": "stun.spreed.me"
+    },
+    {
+      "file": "category-stun",
+      "line": 262,
+      "type": "full",
+      "value": "stun.srce.hr"
+    },
+    {
+      "file": "category-stun",
+      "line": 263,
+      "type": "full",
+      "value": "stun.ssl7.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 264,
+      "type": "full",
+      "value": "stun.stochastix.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 265,
+      "type": "full",
+      "value": "stun.streamnow.ch"
+    },
+    {
+      "file": "category-stun",
+      "line": 266,
+      "type": "full",
+      "value": "stun.stunprotocol.org"
+    },
+    {
+      "file": "category-stun",
+      "line": 267,
+      "type": "full",
+      "value": "stun.symform.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 268,
+      "type": "full",
+      "value": "stun.symplicity.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 269,
+      "type": "full",
+      "value": "stun.sysadminman.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 270,
+      "type": "full",
+      "value": "stun.t-online.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 271,
+      "type": "full",
+      "value": "stun.tagan.ru"
+    },
+    {
+      "file": "category-stun",
+      "line": 272,
+      "type": "full",
+      "value": "stun.tatneft.ru"
+    },
+    {
+      "file": "category-stun",
+      "line": 273,
+      "type": "full",
+      "value": "stun.teachercreated.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 274,
+      "type": "full",
+      "value": "stun.technosens.fr"
+    },
+    {
+      "file": "category-stun",
+      "line": 275,
+      "type": "full",
+      "value": "stun.tel.lu"
+    },
+    {
+      "file": "category-stun",
+      "line": 276,
+      "type": "full",
+      "value": "stun.telbo.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 277,
+      "type": "full",
+      "value": "stun.telefacil.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 278,
+      "type": "full",
+      "value": "stun.telnyx.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 279,
+      "type": "full",
+      "value": "stun.telviva.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 280,
+      "type": "full",
+      "value": "stun.thinkrosystem.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 281,
+      "type": "full",
+      "value": "stun.threema.ch"
+    },
+    {
+      "file": "category-stun",
+      "line": 282,
+      "type": "full",
+      "value": "stun.tis-dialog.ru"
+    },
+    {
+      "file": "category-stun",
+      "line": 283,
+      "type": "full",
+      "value": "stun.tng.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 284,
+      "type": "full",
+      "value": "stun.ttmath.org"
+    },
+    {
+      "file": "category-stun",
+      "line": 285,
+      "type": "full",
+      "value": "stun.tula.nu"
+    },
+    {
+      "file": "category-stun",
+      "line": 286,
+      "type": "full",
+      "value": "stun.twt.it"
+    },
+    {
+      "file": "category-stun",
+      "line": 287,
+      "type": "full",
+      "value": "stun.u-blox.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 288,
+      "type": "full",
+      "value": "stun.uabrides.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 289,
+      "type": "full",
+      "value": "stun.ucallweconn.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 290,
+      "type": "full",
+      "value": "stun.ucsb.edu"
+    },
+    {
+      "file": "category-stun",
+      "line": 291,
+      "type": "full",
+      "value": "stun.ucw.cz"
+    },
+    {
+      "file": "category-stun",
+      "line": 292,
+      "type": "full",
+      "value": "stun.ukh.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 293,
+      "type": "full",
+      "value": "stun.uls.co.za"
+    },
+    {
+      "file": "category-stun",
+      "line": 294,
+      "type": "full",
+      "value": "stun.unseen.is"
+    },
+    {
+      "file": "category-stun",
+      "line": 295,
+      "type": "full",
+      "value": "stun.usfamily.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 296,
+      "type": "full",
+      "value": "stun.valorant.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 297,
+      "type": "full",
+      "value": "stun.vavadating.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 298,
+      "type": "full",
+      "value": "stun.veoh.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 299,
+      "type": "full",
+      "value": "stun.verbo.be"
+    },
+    {
+      "file": "category-stun",
+      "line": 300,
+      "type": "full",
+      "value": "stun.vidyo.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 301,
+      "type": "full",
+      "value": "stun.vipgroup.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 302,
+      "type": "full",
+      "value": "stun.virtual-call.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 303,
+      "type": "full",
+      "value": "stun.viva.gr"
+    },
+    {
+      "file": "category-stun",
+      "line": 304,
+      "type": "full",
+      "value": "stun.vivox.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 305,
+      "type": "full",
+      "value": "stun.vline.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 306,
+      "type": "full",
+      "value": "stun.vo.lu"
+    },
+    {
+      "file": "category-stun",
+      "line": 307,
+      "type": "full",
+      "value": "stun.vodafone.ro"
+    },
+    {
+      "file": "category-stun",
+      "line": 308,
+      "type": "full",
+      "value": "stun.voicetrading.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 309,
+      "type": "full",
+      "value": "stun.voip.aebc.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 310,
+      "type": "full",
+      "value": "stun.voip.blackberry.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 311,
+      "type": "full",
+      "value": "stun.voip.eutelia.it"
+    },
+    {
+      "file": "category-stun",
+      "line": 312,
+      "type": "full",
+      "value": "stun.voiparound.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 313,
+      "type": "full",
+      "value": "stun.voipblast.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 314,
+      "type": "full",
+      "value": "stun.voipbuster.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 315,
+      "type": "full",
+      "value": "stun.voipbusterpro.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 316,
+      "type": "full",
+      "value": "stun.voipcheap.co.uk"
+    },
+    {
+      "file": "category-stun",
+      "line": 317,
+      "type": "full",
+      "value": "stun.voipcheap.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 318,
+      "type": "full",
+      "value": "stun.voipfibre.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 319,
+      "type": "full",
+      "value": "stun.voipgain.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 320,
+      "type": "full",
+      "value": "stun.voipgate.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 321,
+      "type": "full",
+      "value": "stun.voipia.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 322,
+      "type": "full",
+      "value": "stun.voipinfocenter.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 323,
+      "type": "full",
+      "value": "stun.voipplanet.nl"
+    },
+    {
+      "file": "category-stun",
+      "line": 324,
+      "type": "full",
+      "value": "stun.voippro.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 325,
+      "type": "full",
+      "value": "stun.voipraider.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 326,
+      "type": "full",
+      "value": "stun.voipstunt.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 327,
+      "type": "full",
+      "value": "stun.voiptia.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 328,
+      "type": "full",
+      "value": "stun.voipwise.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 329,
+      "type": "full",
+      "value": "stun.voipzoom.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 330,
+      "type": "full",
+      "value": "stun.vomessen.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 331,
+      "type": "full",
+      "value": "stun.vopium.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 332,
+      "type": "full",
+      "value": "stun.voxgratia.org"
+    },
+    {
+      "file": "category-stun",
+      "line": 333,
+      "type": "full",
+      "value": "stun.voxox.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 334,
+      "type": "full",
+      "value": "stun.voys.nl"
+    },
+    {
+      "file": "category-stun",
+      "line": 335,
+      "type": "full",
+      "value": "stun.voztele.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 336,
+      "type": "full",
+      "value": "stun.voztovoice.org"
+    },
+    {
+      "file": "category-stun",
+      "line": 337,
+      "type": "full",
+      "value": "stun.vyke.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 338,
+      "type": "full",
+      "value": "stun.webcalldirect.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 339,
+      "type": "full",
+      "value": "stun.whoi.edu"
+    },
+    {
+      "file": "category-stun",
+      "line": 340,
+      "type": "full",
+      "value": "stun.wifirst.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 341,
+      "type": "full",
+      "value": "stun.wwdl.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 342,
+      "type": "full",
+      "value": "stun.xs4all.nl"
+    },
+    {
+      "file": "category-stun",
+      "line": 343,
+      "type": "full",
+      "value": "stun.xten.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 344,
+      "type": "full",
+      "value": "stun.xtratelecom.es"
+    },
+    {
+      "file": "category-stun",
+      "line": 345,
+      "type": "full",
+      "value": "stun.yesdates.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 346,
+      "type": "full",
+      "value": "stun.yesss.at"
+    },
+    {
+      "file": "category-stun",
+      "line": 347,
+      "type": "full",
+      "value": "stun.zadarma.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 348,
+      "type": "full",
+      "value": "stun.zadv.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 349,
+      "type": "full",
+      "value": "stun.zentauron.de"
+    },
+    {
+      "file": "category-stun",
+      "line": 350,
+      "type": "full",
+      "value": "stun.zepter.ru"
+    },
+    {
+      "file": "category-stun",
+      "line": 351,
+      "type": "full",
+      "value": "stun.zoiper.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 352,
+      "type": "full",
+      "value": "stun01.sipphone.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 353,
+      "type": "full",
+      "value": "stun1.faktortel.com.au"
+    },
+    {
+      "file": "category-stun",
+      "line": 354,
+      "type": "full",
+      "value": "stun1.l.google.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 355,
+      "type": "full",
+      "value": "stun1.voiceeclipse.net"
+    },
+    {
+      "file": "category-stun",
+      "line": 356,
+      "type": "full",
+      "value": "stun2.l.google.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 357,
+      "type": "full",
+      "value": "stun3.l.google.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 358,
+      "type": "full",
+      "value": "stun4.l.google.com"
+    },
+    {
+      "file": "category-stun",
+      "line": 359,
+      "type": "full",
+      "value": "stunserver.org"
+    }
+  ]
+}
