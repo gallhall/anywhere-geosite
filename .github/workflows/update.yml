@@ -20,6 +20,8 @@ jobs:
         run: git clone --depth 1 https://github.com/v2fly/domain-list-community.git /tmp/geosite-source
       - name: Convert GeoSite
         run: python3 scripts/convert.py /tmp/geosite-source/data --output rules
+      - name: Build combined Anywhere module
+        run: python3 scripts/bundle_module.py --rules rules --output rules/anywhere-geosite.amod
       - name: Commit generated rules if changed
         shell: bash
         run: |
@@ -27,7 +29,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add rules/
           if ! git diff --cached --quiet; then
-            git commit -m 'chore: refresh GeoSite rules'
+            git commit -m 'chore: refresh GeoSite rules and module'
             git push
           else
             echo 'Rules unchanged'
