@@ -16,6 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Run converter regression tests
+        run: python3 -m unittest discover -s tests -v
       - name: Fetch GeoSite source
         run: git clone --depth 1 https://github.com/v2fly/domain-list-community.git /tmp/geosite-source
       - name: Convert GeoSite
