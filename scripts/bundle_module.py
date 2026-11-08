@@ -52,7 +52,7 @@ def main():
     module = "\n".join(sections) + "\n"
     if len(module.encode("utf-8")) > 900000:
         raise ValueError("Module exceeds 900 KB safeguard")
-    parsed = module.split("[Routing]\\n")[1:]
+    parsed = module.split("[Routing]\n")[1:]
     if len(parsed) != len(ORDER):
         raise ValueError("Module section count mismatch")
     for i, section in enumerate(parsed):
