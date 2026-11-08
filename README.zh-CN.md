@@ -39,3 +39,5 @@ Anywhere 深层链接：
 `anywhere://add-module?link=https://raw.githubusercontent.com/gallhall/anywhere-geosite/main/rules/anywhere-geosite.amod`
 
 也可以在 OpenList 中挂载该 `.amod` URL，并使用以 `.amod` 结尾的文件直链。此模块会在未来 GitHub Actions 定时运行时，与六个 `.arrs` 文件一同更新。首个模块文件由当时已发布的规则集生成。**导入后请在 Anywhere 中将 GeoSite force-proxy 设置为 PROXY**；`routing = 0` 表示使用默认路由。
+
+转换器现已处理上游的 `&归属关系`、带属性筛选的 `include:` 和规则属性。转换报告会记录上游 Commit SHA 及跨规则集冲突；GitHub Actions 在发布前运行回归测试，若生成规则数量低于旧版本的 70%，则中止发布。注意：这些保护不能保证与 Mihomo 的分流语义完全一致，也不能使 Anywhere 原生支持 `full` 或任意 `regexp`。
