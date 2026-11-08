@@ -19,7 +19,7 @@ GitHub Actions 每天 UTC 03:25 从 [v2fly/domain-list-community](https://github
 
 手动运行：**Actions → Update GeoSite for Anywhere → Run workflow**。如需允许工作流自动提交更新，请检查 **Settings → Actions → General → Workflow permissions → Read and write permissions**。
 
-**注意：** 此转换并非无损转换，也不代表 Anywhere 原生支持 GeoSite。域名后缀和关键词规则可以转换；精确域名及正则表达式规则会被跳过，并记录在 `rules/conversion-report.json` 中。include 和属性筛选结果可能与实际编译的 GeoSite 数据库不同。GeoIP、DNS、网络/UDP、端口及 AND 规则无法通过 `.arrs` 表达。`routing = 0` 代表 Default（默认），**不是** PROXY：导入后需要在 Anywhere 中将 force-proxy 明确设置为 PROXY，并启用 Rule（规则）模式。GitHub 发布更新后不会主动让 Anywhere 刷新，具体取决于客户端的订阅刷新机制。
+**注意：** 此转换并非无损转换，也不代表 Anywhere 原生支持 GeoSite。域名后缀和关键词规则可以转换；已被现有后缀或关键词规则覆盖的精确域名会标记为已覆盖；只有能证明等价的正则表达式才会转换。其他精确域名与正则表达式仍不支持，并按规则集记录在 `rules/conversion-report.json` 中。include 和属性筛选结果可能与实际编译的 GeoSite 数据库不同。GeoIP、DNS、网络/UDP、端口及 AND 规则无法通过 `.arrs` 表达。`routing = 0` 代表 Default（默认），**不是** PROXY：导入后需要在 Anywhere 中将 force-proxy 明确设置为 PROXY，并启用 Rule（规则）模式。GitHub 发布更新后不会主动让 Anywhere 刷新，具体取决于客户端的订阅刷新机制。
 
 本地测试：
 
