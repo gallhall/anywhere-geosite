@@ -19,7 +19,7 @@ Subscription URL example (after first successful run):
 
 To run: **Actions → Update GeoSite for Anywhere → Run workflow**. For automated commit permissions, check **Settings → Actions → General → Workflow permissions → Read and write permissions**.
 
-**Important:** This is a lossy conversion, not native GeoSite support. Domain suffix and keyword rules transfer; exact domains and regular expressions are skipped and listed in `rules/conversion-report.json`. Include/attribute selection may differ from the actual GeoSite build. GeoIP, DNS, network/UDP, port and AND rules cannot be expressed as `.arrs`. `routing = 0` means Default, **not** PROXY: assign force-proxy to explicit PROXY in Anywhere after import. Activate Rule mode. GitHub publishing does not itself force Anywhere to refresh; that depends on the client's subscription refresh.
+**Important:** This is a lossy conversion, not native GeoSite support. Domain suffix and keyword rules transfer; exact domains already matched by a broader included suffix/keyword are recorded as covered, and only provably equivalent regexes are converted. Other exact domains and regexes remain unsupported and are reported per rule set in `rules/conversion-report.json`. Include/attribute selection may differ from the actual GeoSite build. GeoIP, DNS, network/UDP, port and AND rules cannot be expressed as `.arrs`. `routing = 0` means Default, **not** PROXY: assign force-proxy to explicit PROXY in Anywhere after import. Activate Rule mode. GitHub publishing does not itself force Anywhere to refresh; that depends on the client's subscription refresh.
 
 For local testing:
 
