@@ -1,7 +1,7 @@
 name = GeoSite cn
 routing = 1
 
-# Generated automatically. Force proxy needs explicit PROXY in Anywhere.
+# Force proxy requires explicit PROXY selection in Anywhere.
 2, 0033.cn
 2, 00cdn.com
 2, 0123456789.com

@@ -1,7 +1,7 @@
 name = GeoSite force-proxy
 routing = 0
 
-# Generated automatically. Force proxy needs explicit PROXY in Anywhere.
+# Force proxy requires explicit PROXY selection in Anywhere.
 2, 0emm.com
 2, 1drv.com
 2, 1drv.ms

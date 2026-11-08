@@ -1,7 +1,7 @@
 name = GeoSite private
 routing = 1
 
-# Generated automatically. Force proxy needs explicit PROXY in Anywhere.
+# Force proxy requires explicit PROXY selection in Anywhere.
 2, 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
 2, 10.in-addr.arpa
 2, 100.100.in-addr.arpa

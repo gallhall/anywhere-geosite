@@ -1,5 +1,5 @@
 name = GeoSite stun
 routing = 2
 
-# Generated automatically. Force proxy needs explicit PROXY in Anywhere.
+# Force proxy requires explicit PROXY selection in Anywhere.
 2, metered.live
