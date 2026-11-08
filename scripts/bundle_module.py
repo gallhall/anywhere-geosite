@@ -49,8 +49,19 @@ def main():
     estimate_bytes = len(json.dumps(estimate, ensure_ascii=False).encode("utf-8"))
     if estimate_bytes > 750000:
         raise ValueError(f"Estimated module JSON is too large: {estimate_bytes} bytes")
+    module = "\n".join(sections) + "\n"
+    if len(module.encode("utf-8")) > 900000:
+        raise ValueError("Module exceeds 900 KB safeguard")
+    parsed = module.split("[Routing]\\n")[1:]
+    if len(parsed) != len(ORDER):
+        raise ValueError("Module section count mismatch")
+    for i, section in enumerate(parsed):
+        expected = len(estimate[i]["rules"])
+        actual = sum(line.startswith(("2, ", "3, ")) for line in section.splitlines())
+        if expected != actual:
+            raise ValueError(f"Module rule mismatch: {ORDER[i]}")
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text("\n".join(sections) + "\n", encoding="utf-8")
+    args.output.write_text(module, encoding="utf-8")
     print(f"Wrote {args.output}, approx JSON budget {estimate_bytes} bytes")
 
 if __name__ == "__main__":
