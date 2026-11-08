@@ -1,8 +1,8 @@
 name = GeoSite for Anywhere
-description = Automatically updated GeoSite routing rules.
+description = GeoSite categories auto-updated daily; assign Force Proxy to PROXY in Anywhere.
 
 [Routing]
-name = GeoSite force-proxy
+name = GeoSite Force Proxy
 routing = 0
 2, 0emm.com
 2, 1drv.com
@@ -1553,7 +1553,7 @@ routing = 0
 2, zukunftswerkstatt.de
 
 [Routing]
-name = GeoSite cn
+name = GeoSite CN
 routing = 1
 2, 0033.cn
 2, 00cdn.com
@@ -10006,7 +10006,7 @@ routing = 1
 2, zzzmap.com
 
 [Routing]
-name = GeoSite private
+name = GeoSite Private
 routing = 1
 2, 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
 2, 10.in-addr.arpa
@@ -10128,7 +10128,7 @@ routing = 1
 2, zte.home
 
 [Routing]
-name = GeoSite steam-cn
+name = GeoSite Steam CN
 routing = 1
 2, client-update.queniuqe.com
 2, csgo.com.cn
@@ -10146,7 +10146,7 @@ routing = 1
 2, wmsjsteam.com
 
 [Routing]
-name = GeoSite ads
+name = GeoSite Ads
 routing = 2
 2, 1rx.io
 2, 2mdn-cn.net
@@ -10899,7 +10899,7 @@ routing = 2
 2, zz.bdstatic.com
 
 [Routing]
-name = GeoSite stun
+name = GeoSite STUN
 routing = 2
 2, metered.live
 

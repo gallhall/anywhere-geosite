@@ -1507,19 +1507,25 @@
     },
     {
       "file": "github-copilot",
-      "line": 7,
+      "line": 5,
+      "type": "full",
+      "value": "production-copilot-host-westus.webpubsub.azure.com"
+    },
+    {
+      "file": "github-copilot",
+      "line": 8,
       "type": "full",
       "value": "copilotprodattachments.blob.core.windows.net"
     },
     {
       "file": "github-copilot",
-      "line": 10,
+      "line": 11,
       "type": "full",
       "value": "copilot-telemetry-service.githubusercontent.com"
     },
     {
       "file": "github-copilot",
-      "line": 11,
+      "line": 12,
       "type": "full",
       "value": "copilot-telemetry.githubusercontent.com"
     },
