@@ -9,7 +9,7 @@
         "oracle"
       ],
       "rules_generated": 1547,
-      "full_already_covered": 322,
+      "full_already_covered": 325,
       "regexp_safely_converted": 0,
       "unsupported_count": 37,
       "unsupported": [
@@ -197,7 +197,7 @@
         },
         {
           "file": "microsoft-dev",
-          "line": 71,
+          "line": 73,
           "type": "full",
           "value": "rink.hockeyapp.net",
           "reason": "exact-only unsupported; suffix would overmatch"
@@ -225,7 +225,7 @@
         },
         {
           "file": "microsoft-dev",
-          "line": 77,
+          "line": 81,
           "type": "full",
           "value": "vsmarketplacebadge.apphb.com",
           "reason": "exact-only unsupported; suffix would overmatch"
@@ -278,7 +278,7 @@
       "source_categories": [
         "cn"
       ],
-      "rules_generated": 8450,
+      "rules_generated": 8462,
       "full_already_covered": 57,
       "regexp_safely_converted": 0,
       "unsupported_count": 15,
@@ -320,14 +320,14 @@
         },
         {
           "file": "category-games-cn",
-          "line": 39,
+          "line": 40,
           "type": "full",
           "value": "end-api.shallow.ink",
           "reason": "exact-only unsupported; suffix would overmatch"
         },
         {
           "file": "category-games-cn",
-          "line": 40,
+          "line": 41,
           "type": "full",
           "value": "end.shallow.ink",
           "reason": "exact-only unsupported; suffix would overmatch"
@@ -612,7 +612,7 @@
         },
         {
           "file": "yandex",
-          "line": 147,
+          "line": 148,
           "type": "full",
           "value": "adfstat.yandex.ru",
           "reason": "exact-only unsupported; suffix would overmatch"
@@ -710,14 +710,14 @@
         },
         {
           "file": "yandex",
-          "line": 148,
+          "line": 149,
           "type": "full",
           "value": "ads.yandex.com",
           "reason": "exact-only unsupported; suffix would overmatch"
         },
         {
           "file": "yandex",
-          "line": 149,
+          "line": 150,
           "type": "full",
           "value": "ads.yango.com",
           "reason": "exact-only unsupported; suffix would overmatch"
@@ -773,7 +773,7 @@
         },
         {
           "file": "yandex",
-          "line": 150,
+          "line": 151,
           "type": "full",
           "value": "adsdk.yandex.ru",
           "reason": "exact-only unsupported; suffix would overmatch"
@@ -871,7 +871,7 @@
         },
         {
           "file": "yandex",
-          "line": 151,
+          "line": 152,
           "type": "full",
           "value": "amc.yandex.ru",
           "reason": "exact-only unsupported; suffix would overmatch"
@@ -906,7 +906,7 @@
         },
         {
           "file": "yandex",
-          "line": 152,
+          "line": 153,
           "type": "full",
           "value": "analytics.mobile.yandex.net",
           "reason": "exact-only unsupported; suffix would overmatch"
@@ -1081,21 +1081,21 @@
         },
         {
           "file": "yandex",
-          "line": 153,
+          "line": 154,
           "type": "full",
           "value": "clck.yandex.com",
           "reason": "exact-only unsupported; suffix would overmatch"
         },
         {
           "file": "yandex",
-          "line": 154,
+          "line": 155,
           "type": "full",
           "value": "clck.yandex.net",
           "reason": "exact-only unsupported; suffix would overmatch"
         },
         {
           "file": "yandex",
-          "line": 155,
+          "line": 156,
           "type": "full",
           "value": "clck.yango.com",
           "reason": "exact-only unsupported; suffix would overmatch"
@@ -1123,7 +1123,7 @@
         },
         {
           "file": "yandex",
-          "line": 156,
+          "line": 157,
           "type": "full",
           "value": "informer.yandex.ru",
           "reason": "exact-only unsupported; suffix would overmatch"
@@ -1137,7 +1137,7 @@
         },
         {
           "file": "yandex",
-          "line": 157,
+          "line": 158,
           "type": "full",
           "value": "log.strm.yandex.ru",
           "reason": "exact-only unsupported; suffix would overmatch"
@@ -1200,21 +1200,21 @@
         },
         {
           "file": "yandex",
-          "line": 158,
+          "line": 159,
           "type": "full",
           "value": "mc.yandex.com",
           "reason": "exact-only unsupported; suffix would overmatch"
         },
         {
           "file": "yandex",
-          "line": 159,
+          "line": 160,
           "type": "full",
           "value": "mc.yandex.net",
           "reason": "exact-only unsupported; suffix would overmatch"
         },
         {
           "file": "yandex",
-          "line": 160,
+          "line": 161,
           "type": "full",
           "value": "mc.yango.com",
           "reason": "exact-only unsupported; suffix would overmatch"
@@ -1277,7 +1277,7 @@
         },
         {
           "file": "yandex",
-          "line": 161,
+          "line": 162,
           "type": "full",
           "value": "pixel.yandex.com",
           "reason": "exact-only unsupported; suffix would overmatch"
@@ -1326,7 +1326,7 @@
         },
         {
           "file": "yandex",
-          "line": 162,
+          "line": 163,
           "type": "full",
           "value": "report.ap.yandex-net.ru",
           "reason": "exact-only unsupported; suffix would overmatch"
@@ -6062,5 +6062,5 @@
       }
     ]
   },
-  "upstream_commit": "3e5a6807b0f31268e96b321440564fc809996b22"
+  "upstream_commit": "41504eae2a11f305fe88cfc605cf6c105a80bf5a"
 }
