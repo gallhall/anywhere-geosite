@@ -1649,6 +1649,7 @@ routing = 1
 2, 16rd.com
 2, 17173.com
 2, 17173cdn.com
+2, 172.com
 2, 172mix.com
 2, 178.com
 2, 178linux.com
@@ -1680,9 +1681,12 @@ routing = 1
 2, 1kkk.com
 2, 1nongjing.com
 2, 1ppt.com
+2, 1qianbao.com
 2, 1ting.com
 2, 1tyy.cn
 2, 1xhh.cn
+2, 1y.com
+2, 1ycdn.com
 2, 1zhe.com
 2, 20130123.com
 2, 21cn.com
@@ -1804,6 +1808,7 @@ routing = 1
 2, 3yx.com
 2, 40017.cn
 2, 4008-517-517.cn
+2, 4008000000.com
 2, 4008117117.com
 2, 40407.com
 2, 423down.com
@@ -1909,6 +1914,7 @@ routing = 1
 2, 58pic.com
 2, 58uxd.com
 2, 58v5.cn
+2, 58wos.com.cn
 2, 58xinghuo.cn
 2, 58xinghuo.com
 2, 58xueche.com
@@ -2238,6 +2244,7 @@ routing = 1
 2, aiyunxiao.com
 2, aizgtc.com
 2, aizhan.com
+2, ajkimg.com
 2, ajzq.com
 2, aka815.net
 2, aki-game.com
@@ -2556,6 +2563,9 @@ routing = 1
 2, baikevod.com
 2, baimiao.tech
 2, baimiaoapp.com
+2, baishan.com
+2, baishancdnx.cn
+2, baishancloud.com
 2, baishinetwork.com
 2, baitiao.com
 2, baixing.com
@@ -6296,6 +6306,7 @@ routing = 1
 2, leelen.com
 2, leetcode-cn.com
 2, leetcode.cn
+2, lefile.cn
 2, lehuipay.com
 2, leigod.cn
 2, leigod.com
@@ -6317,6 +6328,8 @@ routing = 1
 2, lenovocust.cn
 2, lenovoeservice.com
 2, lenovofile.com
+2, lenovofoundation.cn
+2, lenovofuturecenter.com
 2, lenovogame.com
 2, lenovoimage.cn
 2, lenovoimage.com
@@ -6466,6 +6479,7 @@ routing = 1
 2, lufaxcdn.com
 2, lufunds.com
 2, luhua.cn
+2, lujincaifu.com
 2, lulian.cn
 2, lumiai.com
 2, lunwengo.net
@@ -6698,6 +6712,7 @@ routing = 1
 2, mincdn.com
 2, mindspore.cn
 2, mingxuan.store
+2, mingyuanfund.com
 2, mingyuanyun.com
 2, minhangshi.com
 2, minimaxi.com
@@ -7133,6 +7148,7 @@ routing = 1
 2, oss-cn-shenzhen.aliyuncs.com
 2, oss-cn-wulanchabu.aliyuncs.com
 2, oss-cn-zhangjiakou.aliyuncs.com
+2, oss-enet.aliyuncs.com
 2, ottcn.com
 2, oupeng.com
 2, ourdvsss.com
@@ -7150,7 +7166,9 @@ routing = 1
 2, p2peye.com
 2, p4p.sina.com.cn
 2, p5w.net
+2, pacfc.com
 2, pacmantwo.com
+2, pafoundation.org.cn
 2, pagescube.cn
 2, pagescube.com
 2, paidaojia.cn
@@ -7220,6 +7238,7 @@ routing = 1
 2, pglstatp-toutiao.com
 2, pgyer.com
 2, pgzs.com
+2, ph.com.cn
 2, pharmacodia.com
 2, phfund.com.cn
 2, philanthropy.xin
@@ -7242,6 +7261,7 @@ routing = 1
 2, pimlog.baidu.com
 2, pinduoduo.com
 2, pinduoduo.net
+2, pingan.cn
 2, pingan.com
 2, pingan.com.cn
 2, pingcap.cn
@@ -7484,6 +7504,7 @@ routing = 1
 2, qpb.sohu.com
 2, qpb1.sohu.com
 2, qpic.cn
+2, qpmcn.com
 2, qq.cn.com
 2, qq.com
 2, qq.com.cn
@@ -8257,6 +8278,7 @@ routing = 1
 2, tencent.design
 2, tencent.net
 2, tencent.net.cn
+2, tencentads.com
 2, tencentapps.com
 2, tencentbyod.com
 2, tencentcdb.cn
@@ -8526,6 +8548,7 @@ routing = 1
 2, tripcdn.com
 2, tritoninfo.net
 2, trjcn.com
+2, trpcdn.com
 2, trpcdn.net
 2, trunktech.com
 2, trustasia.cn
@@ -9564,6 +9587,7 @@ routing = 1
 2, yinxiang.com
 2, yinyuetai.com
 2, yinzhaowang.com
+2, yiqianbao.com
 2, yiqifa.com
 2, yiqifa.org
 2, yisou.com
@@ -9644,6 +9668,8 @@ routing = 1
 2, yoyou.com
 2, ypppt.com
 2, yqb.com
+2, yqbimg.net
+2, yqbmall.com
 2, yrz.name
 2, ys7.com
 2, ysepay.com
@@ -9835,6 +9861,8 @@ routing = 1
 2, zhanzhang.net
 2, zhaodanji.com
 2, zhaokao.net
+2, zhaoliangji.com
+2, zhaoliangjipc.com
 2, zhaomi.cn
 2, zhaomishijie.com
 2, zhaopin.cn
@@ -10830,6 +10858,7 @@ routing = 2
 2, tcss.qq.com
 2, tdsdk.cpatrk.net
 2, telecome.cn
+2, tencentads.com
 2, testads.api.my7v.com
 2, theta.sogoucdn.com
 2, tjqonline.cn

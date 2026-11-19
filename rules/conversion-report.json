@@ -278,7 +278,7 @@
       "source_categories": [
         "cn"
       ],
-      "rules_generated": 8462,
+      "rules_generated": 8490,
       "full_already_covered": 57,
       "regexp_safely_converted": 0,
       "unsupported_count": 15,
@@ -299,7 +299,7 @@
         },
         {
           "file": "geolocation-cn",
-          "line": 723,
+          "line": 719,
           "type": "full",
           "value": "api.blipsandchitz.me",
           "reason": "exact-only unsupported; suffix would overmatch"
@@ -542,7 +542,7 @@
       "source_categories": [
         "category-ads-all"
       ],
-      "rules_generated": 749,
+      "rules_generated": 750,
       "full_already_covered": 4,
       "regexp_safely_converted": 0,
       "unsupported_count": 156,
@@ -4161,7 +4161,7 @@
   },
   "conflicts": {
     "note": "Diagnostic only: Anywhere uses priority tiers, then suffix specificity; this is NOT Mihomo's ordered first-match semantics.",
-    "identical_count": 458,
+    "identical_count": 459,
     "identical_sample": [
       {
         "type": 2,
@@ -6062,5 +6062,5 @@
       }
     ]
   },
-  "upstream_commit": "178b9452b28a254a97d24e56c84babbe3e3e3dda"
+  "upstream_commit": "bc3a8f5e24792303cf82bfff33b1ff164a0e4b3c"
 }
