@@ -278,7 +278,7 @@
       "source_categories": [
         "cn"
       ],
-      "rules_generated": 8490,
+      "rules_generated": 8494,
       "full_already_covered": 57,
       "regexp_safely_converted": 0,
       "unsupported_count": 15,
@@ -299,7 +299,7 @@
         },
         {
           "file": "geolocation-cn",
-          "line": 719,
+          "line": 723,
           "type": "full",
           "value": "api.blipsandchitz.me",
           "reason": "exact-only unsupported; suffix would overmatch"
@@ -6062,5 +6062,5 @@
       }
     ]
   },
-  "upstream_commit": "bc3a8f5e24792303cf82bfff33b1ff164a0e4b3c"
+  "upstream_commit": "ffb513217b9cb22835eb74a39a907d77742ce68f"
 }
