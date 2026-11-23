@@ -278,7 +278,7 @@
       "source_categories": [
         "cn"
       ],
-      "rules_generated": 8495,
+      "rules_generated": 8499,
       "full_already_covered": 57,
       "regexp_safely_converted": 0,
       "unsupported_count": 15,
@@ -6062,5 +6062,5 @@
       }
     ]
   },
-  "upstream_commit": "810aa5258c883f5a2a6fd43cf058d01db0f06be5"
+  "upstream_commit": "dff1013c77ee24daaffb2168b5b425894a9f87bc"
 }
