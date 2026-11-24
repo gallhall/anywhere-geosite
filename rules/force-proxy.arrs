@@ -444,6 +444,7 @@ routing = 0
 2, gemini.google
 2, gemini.google.com
 2, gemini.gstatic.com
+2, gemma.ai
 2, generativeai.google
 2, generativelanguage.googleapis.com
 2, gerritcodereview.com

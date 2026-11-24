@@ -8,7 +8,7 @@
         "microsoft",
         "oracle"
       ],
-      "rules_generated": 1547,
+      "rules_generated": 1548,
       "full_already_covered": 325,
       "regexp_safely_converted": 0,
       "unsupported_count": 37,
@@ -6062,5 +6062,5 @@
       }
     ]
   },
-  "upstream_commit": "dff1013c77ee24daaffb2168b5b425894a9f87bc"
+  "upstream_commit": "98c43cad27fa8f02043858763709fe4a95432ffb"
 }
