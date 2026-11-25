@@ -1396,7 +1396,7 @@
         },
         {
           "file": "rostelecom",
-          "line": 8,
+          "line": 12,
           "type": "full",
           "value": "sentry.iptv.rt.ru",
           "reason": "exact-only unsupported; suffix would overmatch"
@@ -6062,5 +6062,5 @@
       }
     ]
   },
-  "upstream_commit": "98c43cad27fa8f02043858763709fe4a95432ffb"
+  "upstream_commit": "e5f669692b33c189efc96cb1a972c69b390bbbc8"
 }
