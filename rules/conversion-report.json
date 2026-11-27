@@ -11,13 +11,20 @@
       "rules_generated": 1548,
       "full_already_covered": 325,
       "regexp_safely_converted": 0,
-      "unsupported_count": 37,
+      "unsupported_count": 38,
       "unsupported": [
         {
           "file": "google",
           "line": 618,
           "type": "full",
           "value": "apps5.oingo.com",
+          "reason": "exact-only unsupported; suffix would overmatch"
+        },
+        {
+          "file": "microsoft",
+          "line": 310,
+          "type": "full",
+          "value": "aurora-customization-usw2.lithium.com",
           "reason": "exact-only unsupported; suffix would overmatch"
         },
         {
@@ -141,28 +148,28 @@
         },
         {
           "file": "microsoft",
-          "line": 310,
+          "line": 311,
           "type": "full",
           "value": "img-prod-cms-rt-microsoft-com.akamaized.net",
           "reason": "exact-only unsupported; suffix would overmatch"
         },
         {
           "file": "microsoft",
-          "line": 311,
+          "line": 312,
           "type": "full",
           "value": "img-s-msn-com.akamaized.net",
           "reason": "exact-only unsupported; suffix would overmatch"
         },
         {
           "file": "microsoft",
-          "line": 312,
+          "line": 313,
           "type": "full",
           "value": "mwf-service.akamaized.net",
           "reason": "exact-only unsupported; suffix would overmatch"
         },
         {
           "file": "microsoft",
-          "line": 313,
+          "line": 314,
           "type": "full",
           "value": "officecdn-microsoft-com.akamaized.net",
           "reason": "exact-only unsupported; suffix would overmatch"
@@ -204,21 +211,21 @@
         },
         {
           "file": "microsoft",
-          "line": 314,
+          "line": 315,
           "type": "full",
           "value": "statics-marketingsites-eas-ms-com.akamaized.net",
           "reason": "exact-only unsupported; suffix would overmatch"
         },
         {
           "file": "microsoft",
-          "line": 315,
+          "line": 316,
           "type": "full",
           "value": "statics-marketingsites-eus-ms-com.akamaized.net",
           "reason": "exact-only unsupported; suffix would overmatch"
         },
         {
           "file": "microsoft",
-          "line": 316,
+          "line": 317,
           "type": "full",
           "value": "statics-marketingsites-wcus-ms-com.akamaized.net",
           "reason": "exact-only unsupported; suffix would overmatch"
@@ -6062,5 +6069,5 @@
       }
     ]
   },
-  "upstream_commit": "e5f669692b33c189efc96cb1a972c69b390bbbc8"
+  "upstream_commit": "e6601e0d5f5a2b7504b3b11f1bd7ec12818ab46a"
 }
